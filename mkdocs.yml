@@ -1,0 +1,17 @@
+site_name: "Legend: To The East"
+theme: readthedocs
+pages:
+    - Home: index.md
+    - Gameplay Basics: gameplay-basics.md
+    - Character Creation & Advancement: character-creation.md
+    - Races: races.md
+    - Class Overview: classes.md
+    - Classes:
+        - Barbarian: classes/barbarian.md
+        - Monk: classes/monk.md
+        - Paladin: classes/paladin.md
+        - Ranger: classes/ranger.md
+        - Rogue: classes/rogue.md
+        - Sage: classes/sage.md
+        - Shaman: classes/shaman.md
+        - Tactician: classes/tactician.md
