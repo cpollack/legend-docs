@@ -6,11 +6,12 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 ## Current Work
 
 ### Seppe
-* Monk
+* Ranger
 
 ### Michael
 * Rogue
 
 ## Completed
 * Barbarian
+* Monk
 * Paladin
