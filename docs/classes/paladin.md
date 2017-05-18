@@ -108,13 +108,56 @@ When either you or your partner kills an opponent, you each heal 25 HP and may e
 ### 7th Circle &mdash; With Your Shield or On It `EX`
 You don't die until your partner would also be [Dead]. This only works if you are within 100 ft of each other, and have line of effect. If either of those conditions ceases to be met, you die instantly if this ability was currently sustaining you. If your partner has this ability, it does not make you immortal.
 
-## Circle Title
+## Smiting: The Seven Circles of War
+All bonuses from this track are fury bonuses, which stack with other fury bonuses from this track. At the beginning of your turn, you may choose not to benefit from fury bonuses to attack rolls, damage and save DCs until the beginning of your next turn. Attacks and abilities that benefit from a fury bonus to attack rolls, damage or save DCs cannot also deal damage with the [Precision] descriptor.
 
-### 1st Circle &mdash; Feature `SU`
-### 2nd Circle &mdash; Feature `SU`
-### 3rd Circle &mdash; Feature `SU`
-### 4th Circle &mdash; Feature `SU`
-### 5th Circle &mdash; Feature `SU`
-### 6th Circle &mdash; Feature `SU`
-### 7th Circle &mdash; Feature `SU`
+### 1st Circle &mdash; Skirmish `EX`
+When you miss on an attack roll against an opponent, add a +1 bonus to your attack rolls for the duration of the [Encounter]. This bonus stacks with itself up to the higher of 2 or your level, but cannot be added to more than once per attack.
+
+### 2nd Circle &mdash; Conflict `EX`
+Your attacks gain a bonus to damage equal to your Charisma modifier.
+
+### 3rd Circle &mdash; Struggle `EX`
+The second time you hit a single opponent during your turn, you gain a bonus to damage against that opponent equal to your Charisma modifier for one [Round]. The fourth time you hit an opponent during your turn, your bonus to damage against that opponent from this ability increases to twice your Charisma modifier. (These bonuses apply to damage from the attacks with which you hit the second and fourth time.)
+
+### 4th Circle &mdash; Escalation `EX`
+Whenever your Struggle ability activates, you may inflict the [Battered] condition for one [Round] on the opponent you hit to activate Struggle. The duration of this condition increases by one [Round] for every time you hit the opponent again. Additionally, once per [Round], if you hit a [Battered] opponent with an attack, that opponent becomes [Dazed] for one [Round]. A successful Fortitude save (DC 10 + 1/2 your level + your Charisma modifier) negates the [Dazed] condition.
+
+
+### 5th Circle &mdash; Annihilation `EX`
+When you Charge, your attacks gain a bonus to damage equal to your Charisma modifier for the duration of the [Encounter]. This ability stacks with itself up to two times.
+
+
+### 6th Circle &mdash; Scorched Earth `EX`
+If you are reduced to less than half of your normal maximum HP, your attacks gain a bonus to damage equal to your Charisma modifier for the duration of the [Encounter] or until you are healed above that threshold.
+
+
+### 7th Circle &mdash; War Engine `EX`
+Whenever you hit an opponent with an attack, that opponent becomes [Battered] and suffers a penalty to its AC equal to your Charisma modifier until the end of the [Encounter].
+
+
+## Virtue: The Seven Circles of Renewal
+
+### 1st Circle &mdash; Font `SU`
+Once per [Encounter], you may draw up an immobile wellspring of vitality called a font, which manifests as a low steady hum and a single spark of light. As a swift action, you may place it anywhere within 10 ft + 5 ft per two character levels. Each [Round], at the start of your turn, an arc of restorative energy strikes one ally of your choice within your [Close] range of the font, and heals 2 HP plus your character level and your Charisma modifier. A font expires after a number of [Rounds] equal to your Charisma modifier (minimum 2). Fonts do not occupy a square, and cannot be targeted or affected by anything but the Virtue track abilities of their creator.
+
+### 2nd Circle &mdash; Icon `EX`
+You may now place up to two fonts per [Encounter], using a separate swift action to place each.
+
+### 3rd Circle &mdash; Dawnsign `EX`
+Fonts you place now persist for a number of [Rounds] equal to twice your Charisma modifier (minimum 4 [Rounds]), and an additional font emanates from you passively, beginning on your first turn each [Encounter].
+
+### 4th Circle &mdash; Vitality Engine `SU`
+If any portion of the HP healed by an arc would have no effect on a target due to his or her HP being full, instead of simply being wasted, that target gains temporary HP equal to the amount of healing that would have normally had no effect. Unlike normal temporary HP, this stacks to a maximum of half the target's normal max HP. This temporary HP lasts for the duration of the [Encounter].
+
+### 5th Circle &mdash; Holy Glyph `SU`
+Instead of its normal benefit, an arc from one of your fonts may be used to expunge any one of the following conditions: [Shaken], [Entangled], [Nauseated], [Dazzled], [Deafened], [Blinded], or [Sickened].
+
+You can trigger and direct a single arc from one of your fonts as a swift action, in addition to the normal arcs at the beginning of your turn.
+
+### 6th Circle &mdash; Star Spark `SU`
+An arc may be used to expunge any one of the following conditions instead of healing: [Stunned], [Slowed], [Battered], or [Dazed]. Additionally, any time you use your swift action to generate an additional arc, you may destroy any one of your fonts to create an arc that heals 50 points of damage and [Teleport] that ally anywhere within range of a remaining font. You may not destroy the font emanating from your person.
+
+### 7th Circle &mdash; Rebirth `SU`
+You may destroy a font as part of your swift action to generate an arc that revives a [Dead] ally, healing the ally to 50 hit points in the process (if the ally's maximum hit points are less than 50, he gains the rest as temporary HP). If you opt to do this, you may not destroy a font with Star Spark as part of the same action. You may not destroy the font emanating from your person.
 
