@@ -9,4 +9,8 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 * Monk
 
 ### Michael
+* Rogue
+
+## Completed
+* Barbarian
 * Paladin
