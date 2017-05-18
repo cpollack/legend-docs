@@ -6,7 +6,7 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 ## Current Work
 
 ### Seppe
-* Ranger
+* Fighter
 
 ### Michael
 * Rogue
@@ -15,3 +15,4 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 * Barbarian
 * Monk
 * Paladin
+* Ranger
