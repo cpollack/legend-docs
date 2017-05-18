@@ -50,10 +50,23 @@ Paladins have a Good Base Attack bonus. They have Good Fort and Will saves, but 
 |19 |+19 |+14 |+9 |
 |20 |+20 |+15 |+10 |
 
-# Burden of Knowledge
+# Class Features
+
+## Lay On Hands
+
+Once per [Round] as either a Swift or Move action, you may choose to either heal an ally or damage an opponent within [Melee] range.  
+
+* You heal 5 HP per character level you possess + Charisma when using Lay on Hands to heal.
+* You deal your level + CHA damage when using this ability offensively.
+
+You may only use this ability a number of times per [Scene] equal to your CHA.  This is a [Positive] effect.
+
+## The Burden of Knowledge
 
 The Judgment track is common to all paladins, and so is listed directly on the ability chart. You cannot multiclass into or out of Judgment. The
 paladin must also choose any one paladin track(other than Knowing) for the Dedication progression, and one other paladin track (other than Knowing) for the Oath progression.
+
+# Class Tracks
 
 ## Judgment: The Seven Circles of Knowing
 
