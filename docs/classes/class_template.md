@@ -1,6 +1,6 @@
 # Base Stats
 
-|HP |Skills|KDM|KOM|
+|HP |Skills|KOM|KDM|
 |:-:|:----:|:-:|:-:|
 |1|1|Str|Con|
 
