@@ -4,6 +4,11 @@
 |:-:|:----:|:-:|:-:|
 |1|1|Str|Con|
 
+# Class Skills
+|Physical |Knowledge|Interaction|
+|:-----:|:-----:|:-----:|
+|[SKILL]|[SKILL]|[SKILL]
+
 [CLASS BLURB]
 
 # Party Role
