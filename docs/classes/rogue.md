@@ -145,7 +145,7 @@ Some rogues are masters of their craft, experienced in such varied fields that t
 ### Path Feature &mdash; Tricks of the Trade
 Choose two skill trappings from any of the skills you are proficient in. The do not need to be from the same skill.  You have advantage when rolling these two trappings.
 
-Additionally, you can communicate in Thieve's Cant.
+Additionally, you can communicate in Thieves' Cant.
 
 ### Path Feature &mdash; Dilettante Talent
 Choose one of the talents listed below. You gain new abilities at the level shown in the table for your class. For each additional circle, you may choose two additional talents.
@@ -170,7 +170,7 @@ If you fail to meet the DC you can stay or go, but if you go it costs you: leave
 ### Evasion
 _You can nimbly dodge out of the way of certain area effects._
 
-When you are subjected to an effect that allows you to make a Reflex saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.  
+When you are subjected to an effect that allows you to make a Reflex saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
 
 Additionally, the first time each `[Round]` you must make a Reflex save you may instead roll Acrobatics.
 
