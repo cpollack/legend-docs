@@ -9,10 +9,12 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 * Fighter
 
 ### Michael
-* Rogue
+* Tactician
 
 ## Completed
-* Barbarian
-* Monk
-* Paladin
-* Ranger
+* Classes
+   * Barbarian
+   * Monk
+   * Paladin
+   * Ranger
+   * Rogue
