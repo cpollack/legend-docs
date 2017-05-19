@@ -25,9 +25,28 @@ While it might be tempting to make all rogues some kind of thief, they can also 
 
 ## Attack and Save Progression
 
-|Level|BAB|Good Saves|Poor Saves|
-|:---:|:-:|:--------:|:--------:|
-|1 |1 |2 |0 |
+|Level|BAB|Ref|Good Save|Poor Save|
+|:---:|:-:|:-:|:--------:|:--------:|
+|1 |+0 |+2 |+2 |+0 |
+|2 |+1 |+3 |+3 |+1 |
+|3 |+2 |+4 |+4 |+1 |
+|4 |+3 |+4 |+4 |+2 |
+|5 |+3 |+5 |+5 |+2 |
+|6 |+4 |+6 |+6 |+3 |
+|7 |+5 |+6 |+6 |+3 |
+|8 |+6 |+7 |+7 |+4 |
+|9 |+6 |+8 |+8 |+4 |
+|10 |+7 |+8 |+8 |+5 |
+|11 |+8 |+9 |+9 |+5 |
+|12 |+9 |+10 |+10 |+6 |
+|13 |+9 |+10 |+10 |+6 |
+|14 |+10 |+11 |+11 |+7 |
+|15 |+11 |+12 |+12 |+7 |
+|16 |+12 |+12 |+12 |+8 |
+|17 |+12 |+13 |+13 |+8 |
+|18 |+13 |+14 |+14 |+9 |
+|19 |+14 |+14 |+14 |+9 |
+|20 |+15 |+15 |+15 |+10 |
 
 # Class Features
 
@@ -99,18 +118,142 @@ You mercilessly take advantage of openings in your opponents' defenses. Any time
 ### 7th Circle &mdash; Topsy Turvy `EX`
 Sometimes you roll with the punches and sometimes the punches roll with you. Your Panache ability may now move each opponent within your `[Melee]` range after you hit an opponent with a `Once More!` attack instead of just the opponent hit. Once per `[Round]` for each opponent moved, if your opponent is adjacent to an obstacle or occupied square and you are able to push them 5 ft or further, you may forgo any further movement from that activation of Panache to render that opponent `[Prone]`. A successful Reflex save (DC 10 + 1/2 your level + your KOM) negates the `[Prone]` condition.
 
+## Demo Man
+
+Rogues who choose the Demo Man track rely on their ability to destroy all obstacles in their path. Your Key Offensive Modifier is Intelligence, as the strength of your explosives largely depends on your skill in making them.
+
+### 1st Circle &mdash; Smells Like Victory `EX`
+You love the smell of freshly mixed exposives in the morning. Or afternoon. Or evening, for that matter. Choose an elemental descriptor (`[Acid]`, `[Cold]`, `[Electricity]`, or `[Fire]`). This choice is permanent. As a move action or a swift action, you can mix noxious chemicals into a vial, which lasts for one `[Round]`, at which point it becomes useless.
+
+These vials can be thrown as attacks in an attack action, and you can throw as many vials per `[Round]` as you have vials to throw, as a ranged attack (`[Close]` range), with an item bonus to the attack roll equal to the number of Demo Man circles you possess. A target hit by the vial takes energy damage with the chosen descriptor equal to 1d4 per level you possess, plus your Key Offensive Modifier, and starts `[Burning]`. A successful Reflex save (DC 10 + 1/2 your level + your Intelligence modifier) negates the `[Burning]` condition.
+
+### 2nd Circle &mdash; Flashbang `EX`
+Once per `[Round]`, as part of a move action, you can add a fuse to a powerful firecracker, which lasts for one `[Round]` before its volatile chemicals become useless. You can use the firecracker in either of the following ways:
+
+* __Flash Grenade:__ As a ranged attack, which can be made as part of an attack action, you can throw the firecracker at target square within `[Close]` range, which creates a 10 ft radius spread originating from that square. All creatures within the spread are `[Blinded]`
+and `[Deafened]` for two `[Rounds]`. A successful Reflex save (DC 10 + 1/2 your level + your Intelligence modifier) negates the `[Blinded]` and `[Deafened]` conditions.
+
+* __Flash Missile:__ You can affix the firecracker to a single ranged weapon in your possession or a vial prepared with your Smells Like
+Victory ability. The next time you hit a creature with an attack using either that weapon or vial, that creature is `[Blinded]` and `[Deafened]` for one `[Round]`. A successful Fortitude save (DC 10 + 1/2 your level + your Intelligence modifier) negates the `[Blinded]` and `[Deafened]` conditions.
+
+### 3rd Circle &mdash; Sticky Bomb `EX`
+It dawns on you that you might want to ensure a safer escape. Once per `[Encounter]` per 4 character levels, without spending an action, you can affix a pouch of entangling goo to a single ranged weapon in your possession or a vial prepared with your Smells Like Victory ability. The next time you hit a creature with that weapon or vial before the beginning of your next turn, that creature and all creatures within a 20 ft radius spread originating from that creature are `[Entangled]` for two `[Rounds]`. A successful Reflex save (DC 10 + 1/2 your level + your Intelligence modifier) negates the `[Entangled]` condition.
+
+### 4th Circle &mdash; High Explosive `EX`
+Your most spectacular creation yet is so volatile you'd be a fool to carry more than one... so you carry two. Twice per `[Encounter]`, as a standard action, you may create a 30 ft radius spread originating from target square within `[Close]` range, which deals 1d6 damage per level plus your KOM to creatures within the area and pushes them to the closest square outside of it, knocks them `[Prone]`, and leaves them `[Dazed]` for one `[Round]`. A successful Reflex save (DC 10 + 1/2 your level + your Intelligence modifier) negates the `[Dazed]` condition and halves the damage.
+
+### 5th Circle &mdash; Sapper Rods `EX`
+You've created bombs that undermine magic itself. Twice per `[Encounter]`, as a standard action, you may create a 30 ft radius spread originating from target square within `[Close]` range, and choose to do one of the following: 
+
+* End two target effects created by spells or spell-like abilities of 5th circle or lower that have durations and that originate from a creature or square within the spread or targeted a creature within the spread.
+
+* End a single target effect created by a spell or spell-like ability of 6th or 7th circle or lower that has a duration and that originates from a creature or square within the spread or targeted a creature within the spread.
+
+This is a [Dispelling] effect.
+
+### 6th Circle &mdash; Cluster Bomb `EX`
+The more explosives you can fit in one space, the better. Once per `[Encounter]`, as a standard action, you can detonate a cluster bomb in any square within `[Close]` range, creating a 30 ft radius spread originating from target square. This cluster bomb has three of the following effects of your choice:
+
+* __Vitriol:__ Creatures in the spread take energy damage with the elemental descriptor chosen for your Smells Like Victory ability equal to 1d4 per level you possess, plus your Key Offensive Modifier, and starts `[Burning]`. A successful Reflex save negates the `[Burning]` condition.
+
+* __Flash:__ Creatures in the spread are `[Blinded]` and `[Deafened]` for two `[Rounds]`. A successful Reflex save negates this effect
+
+* __Tangle:__ Creatures in the spread are `[Entangled]` for two `[Rounds]`. A successful Reflex save negates this effect.
+
+* __Blast:__ Creatures in the spread take damage equal to 1d6 per level you possess, plus your Key Offensive Modifier, and are pushed to
+the closest square outside of the burst, are knocked `[Prone]`, and are `[Dazed]` for one `[Round]`. A successful Reflex save negates the `[Dazed]` condition and halves the damage.
+
+* __Dispel:__ This is a `[Dispelling]` effect. Choose one: 
+	* End two target effects created by spells or spell-like abilities of 5th circle or lower that have durations and that originate from a creature or square within the spread or targeted a creature within the spread.
+
+	* End a single target effect created by a spell or spell-like ability of 6th or 7th circle or lower that has a duration and that originates from a creature or square within the spread or targeted a creature within the spread. 
+
+The DC for these Reflex saves is 10 + 1/2 your level + your Intelligence modifier.
+
+### 7th Circle &mdash; Show Them All `EX`
+They laughed you out of the university &mdash; but who's laughing now? Once per `[Encounter]`, as a ranged attack, you can hurl a bomb that is beyond the wildest dreams of your stuffy professors at target square within `[Close]` range. You can make this attack as part of an attack action. The bomb detonates in a massive 60 ft radius spread originating from target square, inflicting 4 damage per level to all opponents in the vicinity. A successful Reflex save (DC 10 + 1/2 your level + your Intelligence modifier) halves the damage. Additionally, the blast leaves a cloud of flaming debris throughout its area of effect that lasts three `[Rounds]` and deals 2 damage per character level you possess to any creature entering the debris cloud and to any creature that begins or ends its turn in the debris cloud.
+
 # Defensive Track
+Pick one of the following tracks. You gain the abilities of your chosen track in order, at the level shown in the table.
 
-## Circle Title
+## Acrobatic Adept
+Rogues who choose the Acrobatic Adept track rely on their athletic abilities to keep out of danger. Your Key Defensive Modifier is Constitution, as performing such an impressive series of dodges is incredibly draining.
 
-### 1st Circle &mdash; Feature `SU`
-### 2nd Circle &mdash; Feature `SU`
-### 3rd Circle &mdash; Feature `SU`
-### 4th Circle &mdash; Feature `SU`
-### 5th Circle &mdash; Feature `SU`
-### 6th Circle &mdash; Feature `SU`
-### 7th Circle &mdash; Feature `SU`
+### 1st Circle &mdash; Just That Quick `EX`
 
+You learn to react to attacks with stunning alacrity, sometimes dodging a blow that would otherwise pierce your armor. Once per [Round] per circle you possess from this track, when an opponent who is not `[Concealed]` or `[Fully concealed]` makes an attack against you, if you are not `[Entangled]`, you may make a Reflex save and use the result in place of your AC against that attack if the result is higher than your AC.
+
+### 2nd Circle &mdash; Evasion `EX`
+Once per `[Encounter]`, if you make a successful Reflex saving throw against an offensive action that normally deals half damage on a successful save, you may instead take no damage.
+
+Additionally, you gain a bonus to Reflex saves equal to 1/4th your level (minimum 1).
+
+### 3rd Circle &mdash; Supersonic Man `EX`
+
+You gain a 10 ft bonus to your movement speed and a +1 bonus to AC, and you gain a `[Bonus attack]` whenever you take an attack action.
+
+### 4th Circle &mdash; Don't Stop Me Now `EX`
+You can slip out of any bonds, even magical ones, and dexterously dive over any obstacle. You gain `[Immunity]` to effects with the `[Binding]` descriptor, and moving out of a square of difficult terrain does not cost you extra movement.
+
+### 5th Circle &mdash; Artful Dodger `EX`
+Your sweet moves have become things of beauty. You never provoke attacks of opportunity.
+
+### 6th Circle &mdash; No Sell `EX`
+Once per `[Encounter]`, any time during a `[Round]`, you may make a Reflex save. You may use the result of this save to replace the results of any Fortitude or Will saves you make for the rest of the `[Round]`.
+
+### 7th Circle &mdash; Faster Than the Eye `EX`
+Your exceedingly acrobatic movements, like the unpredictable movements of a fly, fool the eyes of those attempting to harm you. Whenever you use Just that Quick and your opponent's attack roll misses, you gain 20% `[Miss chance]` for one `[Round]`. This stacks with itself, but not other sources, up to a maximum of 80% `[Miss chance]`.
+
+## I Am Ten Ninjas
+Practioners of the exotic art of espionage known as ninjutsu often develop near-supernatural abilities to complement their stealth training. Your Key Defensive Modifier is Wisdom, as perceptiveness and self-control are critical in learning the art of the ninja.
+
+### 1st Circle &mdash; Smoke Bomb! `EX`
+As a ninja, you are well-schooled in the art of disappearing at a moment's notice. As a swift action, you can create an obscuring mist, as the spell. Creating a fourth obscuring mist causes the oldest of your obscuring mists to disperse immediately.
+
+### 2nd Circle &mdash; Ninja Reflexes `EX`
+Once per `[Encounter]`, when you make a successful Reflex saving throw against an offensive action that would normally have a lesser effect on a successful save (such as a spell with a save of "Reflex half"), you may choose to instead ignore the effect entirely.
+
+### 3rd Circle &mdash; Shadow Step `EX`
+As a swift action, you gain `[Blindsight]` out to `[Melee]` range and may add the `[Teleport]` descriptor to any of your movements for one `[Round]`. Whenever you activate the `Smoke Bomb!` ability, you may activate `Shadow Step` without taking another action.
+
+### 4th Circle &mdash; Hummingbird Stance `EX`
+You gain the Fly movement mode. In addition, as a standard action, you can move up to your speed and make a single attack at any point during your movement.
+
+### 5th Circle &mdash; Flash of Shadows `EX`
+Once per `[Encounter]` per 4 levels, as an immediate action, you can `[Teleport]` a distance up to your movement speed.
+
+### 6th Circle &mdash; Paint It Black `EX`
+You can make a Stealth check as a swift or immediate action. In addition, you no longer suffer a penalty to your Stealth check for moving at more than half your movement speed.
+
+Once per [Encounter], you may retain the result of your Stealth check after taking an offensive action.
+
+### 7th Circle &mdash; Void Disciple `EX`
+You are permanently `[Invisible]` and have `[Immunity]` to the `[Revealed]` condition. Special vision modes like `[Blindsight]`, `[Ghostwise sight]`, and `[Tremorsense]` do not allow creatures to ignore the effects of the `[Invisibility]` condition on you. As a free action, you can turn this ability on or off. However, you must still use the Stealth skill to remain fully unseen.
+
+## Fortune's Friend
+
+Some people are just lucky. Whether by the blessings of some god, the accumulation of charms, or some innate ability to manipulate fate, things always seem to go more favorably for a very fortunate few. Your Key Defensive Modifier is Charisma, reflecting your ability to talk and finagle your way out of otherwise-deadly scrapes.
+
+### 1st Circle &mdash; A Little to the Left `EX`
+You seem to narrowly dodge what would otherwise be lethal blows. Once per `[Encounter]`, if you would be reduced to negative hit points, you are instead reduced or healed to 1 hit point and immediately gain a move action. If you have the Swashbuckler track, this move action triggers the `Once More!` ability (if you wish to use it).
+
+### 2nd Circle &mdash; Improvisation `EX`
+As a swift action, you can grant yourself or an ally within `[Close]` range a +2 bonus on attack rolls, saving throws, and skill checks until the beginning of your next turn.
+
+### 3rd Circle &mdash; Gift of Gab `EX`
+By distracting your opponents with constant jokes, elaborate discourse, and simple nonsense, you gain a +3 deflection bonus to Armor Class and a +3 bonus to Reflex saving throws.
+
+### 4th Circle &mdash; Better Lucky And Good `EX`
+Twice per `[Encounter]`, once per `[Round]`, you can remove any one of the following conditions from yourself: `[Battered]`, `[Bleeding]`, `[Blinded]`, `[Confused]`, `[Cowering]`, `[Dazed]`, `[Dazzled]`, `[Deafened]`, `[Entangled]`, `[Exhausted]`, `[Fatigued]`, `[Frightened]`, `[Nauseated]`, `[Panicked]`, `[Paralyzed]`, `[Petrified]`, `[Shaken]`, `[Sickened]` or `[Stunned]`. Activating this ability does not require an action, and can be done even if a condition would normally prevent you from acting.
+
+### 5th Circle &mdash; Changing the Odds `EX`
+Things that shouldn't work in your favor sometimes do anyway. Once per `[Scene]`, plus an additional time for every Fortune's Friend circle you possess (including this one), as a swift action, you can reroll a single d20 roll you made after knowing whether that roll succeeds or fails. You must keep the second result, even if it's unfavorable.
+
+### 6th Circle &mdash; Never Tell Me the Odds `EX`
+Once per [Round], as an immediate action, you may add 1d4 to a single d20 roll you made after knowing the numerical result of the roll, and treat the sum as the new result of that roll. If the result of the two dice rolls together is 20 or higher, it counts as rolling a natural 20 in any situation in which a natural 20 would matter.
+
+### 7th Circle &mdash; Roll With It `EX`
+Once per `[Round]`, when you would take any amount of damage, you may take half that much damage instead.
 
 # The Gift
 
