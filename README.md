@@ -6,7 +6,7 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 ## Current Work
 
 ### Seppe
-* Fighter
+* Shaman
 
 ### Michael
 * Tactician
@@ -14,6 +14,7 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 ## Completed
 * Classes
    * Barbarian
+   * Fighter
    * Monk
    * Paladin
    * Ranger
