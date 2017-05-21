@@ -6,17 +6,25 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 ## Current Work
 
 ### Seppe
-* Sage
+* Skills
 
 ### Michael
 * Tactician
 
 ## Completed
+
+* Gameplay Basics
+* Character Creation
+* Races
 * Classes
-   * Barbarian
-   * Fighter
-   * Monk
-   * Paladin
-   * Ranger
-   * Rogue
-   * Shaman
+    * Barbarian
+    * Fighter
+    * Monk
+    * Paladin
+    * Ranger
+    * Rogue
+    * Sage
+    * Shaman
+* Additional Tracks
+    * Chirurgic Poet
+    * Combat Alchemist

@@ -1,12 +1,12 @@
 site_name: "Legend: To The East"
 theme: readthedocs
 pages:
-    - Home: index.md
-    - Gameplay Basics: gameplay-basics.md
-    - Character Creation & Advancement: character-creation.md
-    - Races: races.md
-    - Class Overview: classes.md
-    - Classes:
+    - "Section I: Introduction": index.md
+    - "Section II: Gameplay Basics": gameplay-basics.md
+    - "Section III: Character Creation & Advancement": character-creation.md
+    - "Section IV: Races": races.md
+    - "Section V: Classes": classes.md
+    - "Section Va: Class List":
         - Barbarian: classes/barbarian.md
         - Fighter: classes/fighter.md
         - Monk: classes/monk.md
@@ -16,3 +16,7 @@ pages:
         - Sage: classes/sage.md
         - Shaman: classes/shaman.md
         - Tactician: classes/tactician.md
+    - "Section VI: Additional Tracks": additional-tracks.md
+    - "Section VIa: Track List":
+        - Chirurgic Poet: extra-tracks/chirurgic-poet.md
+        - Combat Alchemist: extra-tracks/combat-alchemist.md
