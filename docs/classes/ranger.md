@@ -265,7 +265,8 @@ Your Chain has a length of zero at the beginning of each [Encounter]. A chain is
 Each Chain Finisher can be activated as a swift action once per [Round], and can only be activated if the Chain has a certain number of Links or more, speci ed in the text of each ability. As part of each Chain Finisher, you may [Teleport] up to 5ft per Link in the Chain, which lets you close gaps and bring home the attack. You can choose to [Teleport] before or after the effect of the Chain Finisher, and this [Teleport] does not provoke attacks of opportunity. Activating a Chain Finisher ends the current Chain, reducing the number of Links in it to zero.
 
 ### 1st Circle – A Cadence of Blows `EX`
-From the Tempo comes the simplest Chain component, which trades immediate opportunities for a long-term advantage by throwing an opponent o  balance. A Cadence of Blows replaces a single melee attack in an attack action, and when activated grants you a +1 bonus to attack rolls against a single opponent within [Melee] range and a +1 bonus to AC. These bonuses stack twice at 1st circle, three times at 3rd circle, four times at 5th circle, and five times at 7th circle.
+From the Tempo comes the simplest Chain component, which trades immediate opportunities for a long-term advantage by throwing an opponent off balance. A Cadence of Blows replaces a single melee attack in an attack action, and when activated grants you a +1 bonus to attack rolls against a single opponent within [Melee] range and a +1 bonus to AC. These bonuses stack twice at 1st circle, three times at 3rd circle, four times at 5th circle, and five times at 7th circle.
+
 A Cadence of Blows can also be activated as a Chain Finisher when you have a chain of at least one Link long.
 
 ### 2nd Circle – Howl of the North Wind `SU`
@@ -282,7 +283,7 @@ You may make a single melee attack against a creature within your [Medium] range
 With the festering darkness of the second wind, you conjure a swirl of violent black clouds as a Chain Finisher that requires at least two Links in your chain. Up to three target opponents within your [Close] range take damage equal to twice your character level + KOM, and are [Blinded] for two [Rounds]. A successful Reflex save (DC 10 + 1⁄2 your level + your KOM) halves the [Blinded] duration. Scream of the Black Sky may be activated three times per [Encounter].
 
 ### 5th Circle – Staccato Blastwave `SU`
-As a Chain component that replaces two melee attacks in an attack action, you invoke the Principle of  under to create a ripple of violent sound that shatters bone and tears flesh. You make a single melee attack, which deals damage as normal, plus additional damage equal to three times your character level plus your KOM. If the attack misses, you still deal this additional damage to the target.
+As a Chain component that replaces two melee attacks in an attack action, you invoke the Principle of thunder to create a ripple of violent sound that shatters bone and tears flesh. You make a single melee attack, which deals damage as normal, plus additional damage equal to three times your character level plus your KOM. If the attack misses, you still deal this additional damage to the target.
 
 ### 6th Circle – Bellow of the Deep Earth `SU`
 Roaring and sudden, you call forth the underground current of the third wind as a Chain Finisher that requires at least three Links in your chain. You create a 50ft radius spread originating from you that deals damage equal to three times your character level to all opponents in the area and renders them [Prone] and [Entangled]. A successful Fortitude save (DC 10 + 1⁄2 your level + your KOM) negates the [Prone] and [Entangled] conditions. Bellow of the Deep Earth may be activated three times per [Encounter].
