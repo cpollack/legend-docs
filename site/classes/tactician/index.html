@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Tactician - Legend: To The East</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Tactician";
+    var mkdocs_page_input_path = "classes\\tactician.md";
+    var mkdocs_page_url = "/classes/tactician/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Legend: To The East</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Section I: Introduction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../gameplay-basics/">Section II: Gameplay Basics</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../character-creation/">Section III: Character Creation & Advancement</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../races/">Section IV: Races</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../">Section V: Classes</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Section Va: Class List</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../barbarian/">Barbarian</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../fighter/">Fighter</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../monk/">Monk</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../paladin/">Paladin</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ranger/">Ranger</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../rogue/">Rogue</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../sage/">Sage</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../shaman/">Shaman</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Tactician</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#base-stats">Base Stats</a></li>
+    
+
+    <li class="toctree-l3"><a href="#class-skills">Class Skills</a></li>
+    
+
+    <li class="toctree-l3"><a href="#party-role">Party Role</a></li>
+    
+
+    <li class="toctree-l3"><a href="#tacticians-in-your-game">Tacticians in Your Game</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#attack-and-save-progression">Attack and Save Progression</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#class-features">Class Features</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#class-feature">Class Feature</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#class-circles">Class Circles</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#tactical-insight">Tactical Insight</a></li>
+        
+            <li><a class="toctree-l4" href="#bag-of-tricks">Bag of Tricks</a></li>
+        
+            <li><a class="toctree-l4" href="#the-playbook">The Playbook</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../additional-tracks/">Section VI: Additional Tracks</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Section VIa: Track List</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../extra-tracks/chirurgic-poet/">Chirurgic Poet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../extra-tracks/combat-alchemist/">Combat Alchemist</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Section VII: Skills</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../skills/skills/">Overview</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../skills/physical/">Physical Skills</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../skills/knowledge/">Knowledge Skills</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../skills/interaction/">Interaction Skills</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Legend: To The East</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Section Va: Class List &raquo;</li>
+        
+      
+    
+    <li>Tactician</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="base-stats">Base Stats</h1>
+<table>
+<thead>
+<tr>
+<th align="center">HP</th>
+<th align="center">Skills</th>
+<th align="center">KOM</th>
+<th align="center">KDM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">8</td>
+<td align="center">9</td>
+<td align="center">Int</td>
+<td align="center">Con</td>
+</tr>
+</tbody>
+</table>
+<h1 id="class-skills">Class Skills</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Physical</th>
+<th align="center">Knowledge</th>
+<th align="center">Interaction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Ride</td>
+<td align="center">Arcana</td>
+<td align="center">Diplomacy</td>
+</tr>
+<tr>
+<td align="center">Survival</td>
+<td align="center">Engineering</td>
+<td align="center">Perception</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Geography</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">History</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Medicine</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Nature</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<p>An organized platoon of warriors will always triumph over a rowdy band of brutes, and it is the tactician's duty to make sure that his comrades are the former rather than the latter. Tacticians rarely hold their own in a duel, but their talents lie elsewhere &mdash; in finding the enemy's weak point and enabling their allies to strike it as effectively as possible. To this end, tacticians train in a diverse range of skills, from powerful magic that can turn the tide of a battle to unorthodox tactics that give them and their allies an edge in combat.</p>
+<h1 id="party-role">Party Role</h1>
+<p>A tactician is a support character. While he may not be personally swinging a sword, his abilities greatly help the party's front-liners. Tacticians win fights through careful application of the right spell in the right place, an art much subtler than beating things to death with sticks.</p>
+<h1 id="tacticians-in-your-game">Tacticians in Your Game</h1>
+<p>Tacticians can be used in many leadership roles: as army officers, bandit chiefs or rebellion leaders. Their focus on magic and knowledge makes them ideal wizards or scholars. Because they are spellcasters, some uninformed people may confuse them for shamans.</p>
+<h2 id="attack-and-save-progression">Attack and Save Progression</h2>
+<p>Tacticians have a Poor Base Attack bonus. They have Good Reflex and Will saves, but a Poor Fortitude save.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Level</th>
+<th align="center">BAB</th>
+<th align="center">Good Saves</th>
+<th align="center">Poor Saves</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">+0</td>
+<td align="center">+2</td>
+<td align="center">+0</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">+1</td>
+<td align="center">+3</td>
+<td align="center">+1</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">+2</td>
+<td align="center">+4</td>
+<td align="center">+1</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">+3</td>
+<td align="center">+4</td>
+<td align="center">+2</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">+3</td>
+<td align="center">+5</td>
+<td align="center">+2</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">+4</td>
+<td align="center">+6</td>
+<td align="center">+3</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">+5</td>
+<td align="center">+6</td>
+<td align="center">+3</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">+6</td>
+<td align="center">+7</td>
+<td align="center">+4</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">+6</td>
+<td align="center">+8</td>
+<td align="center">+4</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">+7</td>
+<td align="center">+8</td>
+<td align="center">+5</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">+8</td>
+<td align="center">+9</td>
+<td align="center">+5</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">+9</td>
+<td align="center">+10</td>
+<td align="center">+6</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">+9</td>
+<td align="center">+10</td>
+<td align="center">+6</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">+10</td>
+<td align="center">+11</td>
+<td align="center">+7</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">+11</td>
+<td align="center">+12</td>
+<td align="center">+7</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">+12</td>
+<td align="center">+12</td>
+<td align="center">+8</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">+12</td>
+<td align="center">+13</td>
+<td align="center">+8</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">+13</td>
+<td align="center">+14</td>
+<td align="center">+9</td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">+14</td>
+<td align="center">+14</td>
+<td align="center">+9</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">+15</td>
+<td align="center">+15</td>
+<td align="center">+10</td>
+</tr>
+</tbody>
+</table>
+<h1 id="class-features">Class Features</h1>
+<h2 id="class-feature">Class Feature</h2>
+<h1 id="class-circles">Class Circles</h1>
+<h2 id="tactical-insight">Tactical Insight</h2>
+<p><em>You spend your time reading obscure field manuals and tomes. As a result, you and your allies are well prepared for nearly any fight you face.</em></p>
+<p>As part of a move action, you can attempt a Knowledge skill check of the relevant type against your opponent (Arcana against an <code>[Outsider]</code>, for example). If there are several opponents of the same creature type, the ability affects all of them; opponents with different creature types require additional skill checks (requiring additional partial move actions).</p>
+<ul>
+<li>The DC of the check is equal to 10 + the level of the highest-level opponent of that creature type (minimum 11).</li>
+<li>If you succeed on the check, you and allies who can establish line of sight to you or receive your communication gain the benefits of one of the abilities that you know from the list below.</li>
+<li>You can make any number of Knowledge checks in this way per <code>[Encounter]</code> as long as you spend an action for each, but you cannot apply the same ability to the same creature type more than once during the <code>[Encounter]</code>.</li>
+<li>Opponents that join an <code>[Encounter]</code> in progress are affected by any Knowledge skill checks that were made for these abilities this <code>[Encounter]</code> that have affected opponents of their creature type. </li>
+</ul>
+<p>The effects of a Tactical Insight ability expire at the end of the <code>[Encounter]</code>, with new Knowledge checks necessary the next time you encounter that opponent.</p>
+<h3 id="1st-circle-combative-precognition-ex">1st Circle &mdash; Combative Precognition <code>EX</code></h3>
+<p>You and your allies may gain either a +3 bonus to attack rolls or a +3 deflection bonus to Armor Class against opponents affected by your Knowledge check. You choose which bonus to apply when activating your Tactical Insight ability. When you gain the 3rd circle of this track, you no longer have to choose: you gain both benefits of Combative Precognition whenever you activate it.</p>
+<h3 id="2nd-circle-psychological-warfare-ex">2nd Circle &mdash; Psychological Warfare <code>EX</code></h3>
+<p>You and your allies may gain a +2 bonus to Bluff, Diplomacy, Intimidate, and Perception checks against opponents affected by your Knowledge check.</p>
+<h3 id="3rd-circle-precognitive-resistance-ex">3rd Circle &mdash; Precognitive Resistance <code>EX</code></h3>
+<p>You and your allies may gain a +2 bonus to saving throws against effects used or abilities activated by opponents affected by your Knowledge check.</p>
+<h3 id="4th-circle-exploit-weakness-ex">4th Circle &mdash; Exploit Weakness <code>EX</code></h3>
+<p>You and your allies may gain a +2 bonus to the DC of any abilities you or they activate against opponents affected by your Knowledge check.</p>
+<h3 id="5th-circle-advanced-insights-ex">5th Circle &mdash; Advanced Insights <code>EX</code></h3>
+<p>Pick one of the following abilities. This choice is permanent:</p>
+<ul>
+<li><strong>Quick Insight:</strong> You can activate your Tactical Insight ability as a swift action.</li>
+<li><strong>Deep Insight:</strong> Choose one of your Tactical Insight circles other than this one. You increase the bonus granted by that circle by 1.</li>
+</ul>
+<h3 id="6th-circle-countermeasures-ex">6th Circle &mdash; Countermeasures <code>EX</code></h3>
+<p>Once per <code>[Encounter]</code>, as an immediate action, you may automatically cancel a spell, spell-like ability, or supernatural ability that an opponent affected by your Knowledge check attempts to activate. The ability automatically fails. The ability counts as having been activated for the purpose of any resource cost (such as spell slots), and if an action was spent for the ability, the action counts as having been used.</p>
+<h3 id="7th-circle-unspeakable-secret-ex">7th Circle &mdash; Unspeakable Secret <code>EX</code></h3>
+<p>Once per <code>[Encounter]</code>, as a swift action, you may divulge a secret so profound that it renders a single opponent affected by your Knowledge check <code>[Stunned]</code> for one <code>[Round]</code>. There is no save allowed, and if the opponent has <code>[Immunity]</code> to being <code>[Stunned]</code> the opponent is <code>[Dazed]</code> instead. If the opponent has <code>[Immunity]</code> to both, the ability has no effect, but you really should have known about its <code>[Immunity]</code> beforehand.</p>
+<h2 id="bag-of-tricks">Bag of Tricks</h2>
+<h3 id="1st-circle-surgical-precision-ex">1st Circle &mdash; Surgical Precision <code>EX</code></h3>
+<p>Once per <code>[Encounter]</code> per circle of Bag of Tricks you possess, as a swift action, when you create a spread, line, or wedge without a duration, you may remove any number of squares from the area of the effect or rearrange them so long as each square in the area of the effect is adjacent to at least one other square in the area of the effect. Each square must be within range of the square or creature from which the spread, line, or wedge originates if the effect has a range, or within a distance from the square or creature from which the spread, line, or wedge originates equal to its length or radius if it does not.</p>
+<h3 id="2nd-circle-early-warning-ex">2nd Circle &mdash; Early Warning <code>EX</code></h3>
+<p>You and all allies within 30 ft gain a bonus to initiative checks equal to 1/4 your level (minimum 1).</p>
+<h3 id="3rd-circle-bait-and-switch-su">3rd Circle &mdash; Bait and Switch <code>SU</code></h3>
+<p>Once per 4 levels per <code>[Encounter]</code> as a move action, if you have line of sight to two allies who are each within 10 ft per your character level of your location, you can switch the positions of those two allies. You can use this ability to switch yourself with another ally.</p>
+<p>This is a <code>[Warp]</code> effect.</p>
+<h3 id="4th-circle-the-enemy-you-know-su">4th Circle &mdash; The Enemy You Know <code>SU</code></h3>
+<p>You have <code>[Resistance]</code> to energy and magic damage.</p>
+<h3 id="5th-circle-dweomerbreaker-su">5th Circle &mdash; Dweomerbreaker <code>SU</code></h3>
+<p>Once per [Encounter], as a standard action, you may empower the attacks of allies within 30 ft until the beginning of your next turn. The first time each ally under this effect hits an opponent with an attack, they may end a single target effect created by a spell or spell-like ability that has a duration and that originates from the opponent or targeted the opponent. This is a <code>[Dispelling]</code> effect.</p>
+<h3 id="6th-circle-saw-that-coming-su">6th Circle &mdash; Saw That Coming <code>SU</code></h3>
+<p>Once per <code>[Encounter]</code>, as an immediate action, you can negate an offensive action that targets you specifically. This includes targeted spells, abilities, or attacks, but not area effects. The offensive action still counts as having been activated for the purpose of any resource cost (such as spell slots), and if an action was spent for the offensive action, that action counts as having been used.</p>
+<h3 id="7th-circle-checkmate-su">7th Circle &mdash; Checkmate <code>SU</code></h3>
+<p>Once per <code>[Encounter]</code>, as a standard action, you can imprison an opponent within your <code>[Close]</code> range for the next 2 <code>[Rounds]</code>. The opponent is incapable of acting or perceiving its surroundings, but it gains <code>[Immunity]</code> to damage and <code>[HP reduction]</code>, it cannot be targeted by an attack or ability, and line of effect is blocked between the creature and any attack, ability, or effect. A successful Will save (DC 10 + 1/2 your level + your KOM) negates this effect, but leaves your target <code>[Dazed]</code> for 1 <code>[Round]</code>.</p>
+<h2 id="the-playbook">The Playbook</h2>
+<p>You cast spells drawn from the tactician spell list. Your Intelligence modifier is your Spellcasting Ability Modifier (SAM) for this track. The DC for your spells is equal to 10 + 1/2 your character level + your Spellcasting Ability Modifier. You can only cast a certain number of spells of each spell level in a [Scene], as noted in the table below. You also receive bonus spells per [Scene] for having a high Spellcasting Ability Modifier.</p>
+<p>You can only cast spells that you know. You gain an additional three spells known every time you gain a circle in this track. Any time that you level up, you can unlearn a single spell and learn a new spell of the same level. You cannot learn spells of a level you cannot cast. You may use an available spell slot of a circle to cast any spell you know of that circle or lower.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Level</th>
+<th align="center">Spell Circle</th>
+<th align="center">1st</th>
+<th align="center">2nd</th>
+<th align="center">3rd</th>
+<th align="center">4th</th>
+<th align="center">5th</th>
+<th align="center">6th</th>
+<th align="center">7th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center"></td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">3</td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">4</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">6</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">3</td>
+<td align="center">&mdash;</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">7</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">4</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">3</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../additional-tracks/" class="btn btn-neutral float-right" title="Section VI: Additional Tracks">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../shaman/" class="btn btn-neutral" title="Shaman"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../shaman/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../additional-tracks/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Paladin - Legend: To The East</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Paladin";
+    var mkdocs_page_input_path = "classes\\paladin.md";
+    var mkdocs_page_url = "/classes/paladin/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Legend: To The East</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Section I: Introduction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../gameplay-basics/">Section II: Gameplay Basics</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../character-creation/">Section III: Character Creation & Advancement</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../races/">Section IV: Races</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../">Section V: Classes</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Section Va: Class List</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../barbarian/">Barbarian</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../fighter/">Fighter</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../monk/">Monk</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Paladin</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#base-stats">Base Stats</a></li>
+    
+
+    <li class="toctree-l3"><a href="#class-skills">Class Skills</a></li>
+    
+
+    <li class="toctree-l3"><a href="#party-role">Party Role</a></li>
+    
+
+    <li class="toctree-l3"><a href="#paladins-in-your-game">Paladins in Your Game</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#attack-and-save-progression">Attack and Save Progression</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#class-features">Class Features</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#lay-on-hands">Lay On Hands</a></li>
+        
+            <li><a class="toctree-l4" href="#the-burden-of-knowledge">The Burden of Knowledge</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#class-tracks">Class Tracks</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#judgment-the-seven-circles-of-knowing">Judgment: The Seven Circles of Knowing</a></li>
+        
+            <li><a class="toctree-l4" href="#bastion-the-seven-circles-of-protection">Bastion: The Seven Circles of Protection</a></li>
+        
+            <li><a class="toctree-l4" href="#heroica-the-seven-circles-of-endings">Heroica: The Seven Circles of Endings</a></li>
+        
+            <li><a class="toctree-l4" href="#smiting-the-seven-circles-of-war">Smiting: The Seven Circles of War</a></li>
+        
+            <li><a class="toctree-l4" href="#virtue-the-seven-circles-of-renewal">Virtue: The Seven Circles of Renewal</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ranger/">Ranger</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../rogue/">Rogue</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../sage/">Sage</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../shaman/">Shaman</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tactician/">Tactician</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../additional-tracks/">Section VI: Additional Tracks</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Section VIa: Track List</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../extra-tracks/chirurgic-poet/">Chirurgic Poet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../extra-tracks/combat-alchemist/">Combat Alchemist</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Section VII: Skills</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../skills/skills/">Overview</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../skills/physical/">Physical Skills</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../skills/knowledge/">Knowledge Skills</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../skills/interaction/">Interaction Skills</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Legend: To The East</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Section Va: Class List &raquo;</li>
+        
+      
+    
+    <li>Paladin</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="base-stats">Base Stats</h1>
+<table>
+<thead>
+<tr>
+<th align="center">HP</th>
+<th align="center">Skills</th>
+<th align="center">KOM</th>
+<th align="center">KDM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">10</td>
+<td align="center">5</td>
+<td align="center">Str</td>
+<td align="center">Cha</td>
+</tr>
+</tbody>
+</table>
+<h1 id="class-skills">Class Skills</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Physical</th>
+<th align="center">Knowledge</th>
+<th align="center">Interaction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Athletics</td>
+<td align="center">Arcana</td>
+<td align="center">Diplomacy</td>
+</tr>
+<tr>
+<td align="center">Ride</td>
+<td align="center">Craft</td>
+<td align="center">Intimidate</td>
+</tr>
+<tr>
+<td align="center">Survival</td>
+<td align="center">Geography</td>
+<td align="center">Perception</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">History</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Medicine</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<p>All paladins draw strength from the concept of justice &mdash; but that means different things for different people. Some paladins serve the law, capturing criminals and taking them to the authorities. Others take the law into their own hands, and mete out punishment to those they consider wicked. Whatever a paladin's cause may be, their dedication to that cause gives them supernatural strength and resilience that strikes fear into the most die-hard criminal.</p>
+<h1 id="party-role">Party Role</h1>
+<p>Paladins are one of Legend's most diverse character classes, and can fill any number of roles, but they excel at taking a beating without flinching, and shielding their allies from harm.</p>
+<h1 id="paladins-in-your-game">Paladins in Your Game</h1>
+<p>The most obvious role for a paladin is a sheriff, knight or any other manifestation of authority and the law, but they also make excellent bounty hunters or dogmatic zealots of an evil god.</p>
+<h2 id="attack-and-save-progression">Attack and Save Progression</h2>
+<p>Paladins have a Good Base Attack bonus. They have Good Fort and Will saves, but a Poor Reflex save.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Level</th>
+<th align="center">BAB</th>
+<th align="center">Good Saves</th>
+<th align="center">Poor Saves</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">+1</td>
+<td align="center">+2</td>
+<td align="center">+0</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">+2</td>
+<td align="center">+3</td>
+<td align="center">+1</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">+3</td>
+<td align="center">+4</td>
+<td align="center">+1</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">+4</td>
+<td align="center">+4</td>
+<td align="center">+2</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">+5</td>
+<td align="center">+5</td>
+<td align="center">+2</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">+6</td>
+<td align="center">+6</td>
+<td align="center">+3</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">+7</td>
+<td align="center">+6</td>
+<td align="center">+3</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">+8</td>
+<td align="center">+7</td>
+<td align="center">+4</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">+9</td>
+<td align="center">+8</td>
+<td align="center">+4</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">+10</td>
+<td align="center">+8</td>
+<td align="center">+5</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">+11</td>
+<td align="center">+9</td>
+<td align="center">+5</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">+12</td>
+<td align="center">+10</td>
+<td align="center">+6</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">+13</td>
+<td align="center">+10</td>
+<td align="center">+6</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">+14</td>
+<td align="center">+11</td>
+<td align="center">+7</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">+15</td>
+<td align="center">+12</td>
+<td align="center">+7</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">+16</td>
+<td align="center">+12</td>
+<td align="center">+8</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">+17</td>
+<td align="center">+13</td>
+<td align="center">+8</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">+18</td>
+<td align="center">+14</td>
+<td align="center">+9</td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">+19</td>
+<td align="center">+14</td>
+<td align="center">+9</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">+20</td>
+<td align="center">+15</td>
+<td align="center">+10</td>
+</tr>
+</tbody>
+</table>
+<h1 id="class-features">Class Features</h1>
+<h2 id="lay-on-hands">Lay On Hands</h2>
+<p>Once per [Round] as either a Swift or Move action, you may choose to either heal an ally or damage an opponent within [Melee] range.  </p>
+<ul>
+<li>You heal 5 HP per character level you possess + Charisma when using Lay on Hands to heal.</li>
+<li>You deal your level + CHA damage when using this ability offensively.</li>
+</ul>
+<p>You may only use this ability a number of times per [Scene] equal to your CHA.  This is a [Positive] effect.</p>
+<h2 id="the-burden-of-knowledge">The Burden of Knowledge</h2>
+<p>The Judgment track is common to all paladins, and so is listed directly on the ability chart. You cannot multiclass into or out of Judgment. The
+paladin must also choose any one paladin track(other than Knowing) for the Dedication progression, and one other paladin track (other than Knowing) for the Oath progression.</p>
+<h1 id="class-tracks">Class Tracks</h1>
+<h2 id="judgment-the-seven-circles-of-knowing">Judgment: The Seven Circles of Knowing</h2>
+<p>If you possess the Bastion track, all allies within the area of your Bastion Aura gain the Knowing ability from this track. At the beginning of each [Encounter], you may choose an ability you possess that is a [Bastion] effect. Until the end of the [Encounter], all allies within the area of your Bastion Aura gain that ability.</p>
+<h3 id="1st-circle-knowing-su">1st Circle &mdash; Knowing <code>SU</code></h3>
+<p>You are aware, in the general sense, of the moral and ideological predilections of any sentient creature within a spread with a radius of 15 ft + 5 ft per Judgment circle you possess originating from you. This spread moves with you, is not a divination effect, and is always on. It does not automatically penetrate [Invisible], [Concealed], or Stealth, but if you can otherwise circumvent these effects, Knowing will function unimpeded. Likewise, you become aware of the likely major moral implications of your actions. Just how much you are aware of these implications is determined by the GM. You also gain a +4 bonus to Awareness and to Perception checks. This is a [Bastion] effect.</p>
+<h3 id="2nd-circle-mercy-su">2nd Circle &mdash; Mercy <code>SU</code></h3>
+<p>Once per [Encounter], as an immediate action or part of another immediate action, you may prevent up to three times your character level in damage that would be dealt to any ally within your Knowing. This can only be done as the damage is being dealt, but may be activated after you know exactly how much damage a given effect will deal. This is a [Bastion] effect.</p>
+<h3 id="3rd-circle-grace-su">3rd Circle &mdash; Grace <code>SU</code></h3>
+<p>You gain a +3 bonus to all saves, 2 additional HP per level, and gain [Immunity] to all [Fear] effects.</p>
+<h3 id="4th-circle-requital-su">4th Circle &mdash; Requital <code>SU</code></h3>
+<p>Opponents who start moving within the range of your Knowing suffer a 20 ft penalty to their movement speed, for the purposes of that move. This does not affect 5 ft steps.</p>
+<h3 id="5th-circle-light-su">5th Circle &mdash; Light <code>SU</code></h3>
+<p>You may now, at any time, illuminate the area around you out to the limit of the Knowing. This may be turned on or off as a free action. In addition, you gain [Blindsight] with a range equal to the radius of the Knowing. This is a [Bastion] effect.</p>
+<h3 id="6th-circle-endurance-su">6th Circle &mdash; Endurance <code>SU</code></h3>
+<p>The first time in each [Encounter] that you fail a saving throw against a harmful effect, the effect is negated without affecting you. This is a [Bastion] effect.</p>
+<h3 id="7th-circle-allegiance-su">7th Circle &mdash; Allegiance <code>SU</code></h3>
+<p>You are indefatigable. You gain [Immunity] to [Mind-affecting], [Fatigued], [Exhausted], [Blown Away], [Stunned], [Dazed], and cannot be knocked [Prone].</p>
+<h2 id="bastion-the-seven-circles-of-protection">Bastion: The Seven Circles of Protection</h2>
+<h3 id="1st-circle-the-shield-su">1st Circle &mdash; The Shield <code>SU</code></h3>
+<p>As a swift action, you may create a spread with a radius of 10 ft plus 5 ft per two character levels you possess originating from you called the Bastion Aura. This spread moves with you.</p>
+<p>Whenever a spell of first circle or lower that has a duration targets you, if it is not a copy, you may project it. To project a spell, create a copy of that spell for each other ally within your Bastion Aura.</p>
+<p>That spell and each of those copies become bonded to one another and gain "When a [Dispelling] effect ends this spell, end all spells bonded to it", that spell gains "When this spell ends, end all spells bonded to it", and each of those copies gains "You gain this spell's effect only while you are within the Bastion Aura of the ally who created this spell". Then you cast each of those copies targeting a different one of those allies. This does not provoke attacks of opportunity and counts as casting those spells only for the purpose of those spells' effects and abilities of this track.</p>
+<p>As a swift action, you may end this spread.</p>
+<h3 id="2nd-circle-the-gauntlet-su">2nd Circle &mdash; The Gauntlet <code>SU</code></h3>
+<p>Whenever a spell of 2nd circle of lower that has a duration targets you, if it is not a copy, you may project it.</p>
+<h3 id="3rd-circle-the-mantle-su">3rd Circle &mdash; The Mantle <code>SU</code></h3>
+<p>Whenever a spell of third circle of lower that has a duration targets you, if it is not a copy, you may project it. Each [Encounter], the first [Dispelling] effect made against a bonded spell you cast fails.</p>
+<h3 id="4th-circle-the-armor-su">4th Circle &mdash; The Armor <code>SU</code></h3>
+<p>Whenever a spell of fourth circle of lower that has a duration targets you, if it is not a copy, you may project it. Additionally, each ally gains a +3 deflection bonus to AC as long as it is within the Bastion Aura.</p>
+<h3 id="5th-circle-the-soul-su">5th Circle &mdash; The Soul <code>SU</code></h3>
+<p>Whenever a spell of fifth circle of lower that has a duration targets you, if it is not a copy, you may project it. Each [Encounter], the second [Dispelling] effect made against a bonded spell you cast fails.</p>
+<h3 id="6th-circle-the-ready-su">6th Circle &mdash; The Ready <code>SU</code></h3>
+<p>Each ally gains a pool of points equal to half your character level. Without taking an action, an ally may spend any number of points from their pool after they know the numerical result of a single saving throw, attack roll or skill check they made to add a bonus to that roll equal to the number of points spent. These points may only be spent while the ally is affected by the Bastion Aura. The pool refreshes each [Scene].</p>
+<h3 id="7th-circle-the-strong-su">7th Circle &mdash; The Strong <code>SU</code></h3>
+<p>When an ally within the Bastion Aura is reduced to -1 or fewer hit points from 0 or more hit points, it gains [Immunity] to [Dying], [Unconscious], [Stable], and [Dead] for one [Round].</p>
+<h2 id="heroica-the-seven-circles-of-endings">Heroica: The Seven Circles of Endings</h2>
+<h3 id="1st-circle-the-blade-and-the-bow-ex">1st Circle &mdash; The Blade and the Bow <code>EX</code></h3>
+<p>When you gain this ability, designate target ally other than yourself as your partner. (You also become its partner.) A creature with a partner cannot be designated as another creature's partner, and no creature can have more than one partner at a time.  Once per [Scene], you may designate a different ally other than yourself to be your partner. You and your partner both add half your respective levels to damage with your attacks (minimum 1). If your partner also has this ability, the damage bonuses stack.</p>
+<h3 id="2nd-circle-of-might-and-guile-ex">2nd Circle &mdash; Of Might and Guile <code>EX</code></h3>
+<p>Choose one of the following abilities (this choice is permanent):</p>
+<ul>
+<li>
+<p><strong>Might</strong>: As a swift action, if your partner is within [Medium] range, you may deal damage equal to your KOM to all opponents within your [Close] range of your partner. This damage ignores [Immunity] and cannot be mitigated or reduced.</p>
+</li>
+<li>
+<p><strong>Guile</strong>: You can spend a move action to double your partner's critical threat range for one [Round]. Your partner also gains this ability, but cannot use it in a [Round] where you have used it.</p>
+</li>
+</ul>
+<h3 id="3rd-circle-the-just-and-the-unjust-ex">3rd Circle &mdash; The Just and the Unjust <code>EX</code></h3>
+<p>Your partner gains the benefits of a Lesser item or Greater item you are attuned to as if they possessed a duplicate of that item and were attuned to it. You cannot choose a duplicate of an item to which your partner is already attuned.</p>
+<h3 id="4th-circle-the-truth-and-the-folly-ex">4th Circle &mdash; The Truth and the Folly <code>EX</code></h3>
+<p>Whenever you attack an opponent against which your partner took an offensive action within the last [Round], you may ignore the highest applicable [Miss chance]. Whenever your partner attacks an opponent against which you took an offensive action within the last [Round], your partner may ignore the highest applicable [Miss chance].</p>
+<h3 id="5th-circle-the-quick-and-the-dead-ex">5th Circle &mdash; The Quick and the Dead <code>EX</code></h3>
+<p>While within your [Close] range, your partner gains [Resistance] to all damage dealt by opponents within your [Close] range.</p>
+<h3 id="6th-circle-aleph-and-null-ex">6th Circle &mdash; Aleph and Null <code>EX</code></h3>
+<p>When either you or your partner kills an opponent, you each heal 25 HP and may each immediately take two 5 ft steps.</p>
+<h3 id="7th-circle-with-your-shield-or-on-it-ex">7th Circle &mdash; With Your Shield or On It <code>EX</code></h3>
+<p>You don't die until your partner would also be [Dead]. This only works if you are within 100 ft of each other, and have line of effect. If either of those conditions ceases to be met, you die instantly if this ability was currently sustaining you. If your partner has this ability, it does not make you immortal.</p>
+<h2 id="smiting-the-seven-circles-of-war">Smiting: The Seven Circles of War</h2>
+<p>All bonuses from this track are fury bonuses, which stack with other fury bonuses from this track. At the beginning of your turn, you may choose not to benefit from fury bonuses to attack rolls, damage and save DCs until the beginning of your next turn. Attacks and abilities that benefit from a fury bonus to attack rolls, damage or save DCs cannot also deal damage with the [Precision] descriptor.</p>
+<h3 id="1st-circle-skirmish-ex">1st Circle &mdash; Skirmish <code>EX</code></h3>
+<p>When you miss on an attack roll against an opponent, add a +1 bonus to your attack rolls for the duration of the [Encounter]. This bonus stacks with itself up to the higher of 2 or your level, but cannot be added to more than once per attack.</p>
+<h3 id="2nd-circle-conflict-ex">2nd Circle &mdash; Conflict <code>EX</code></h3>
+<p>Your attacks gain a bonus to damage equal to your Charisma modifier.</p>
+<h3 id="3rd-circle-struggle-ex">3rd Circle &mdash; Struggle <code>EX</code></h3>
+<p>The second time you hit a single opponent during your turn, you gain a bonus to damage against that opponent equal to your Charisma modifier for one [Round]. The fourth time you hit an opponent during your turn, your bonus to damage against that opponent from this ability increases to twice your Charisma modifier. (These bonuses apply to damage from the attacks with which you hit the second and fourth time.)</p>
+<h3 id="4th-circle-escalation-ex">4th Circle &mdash; Escalation <code>EX</code></h3>
+<p>Whenever your Struggle ability activates, you may inflict the [Battered] condition for one [Round] on the opponent you hit to activate Struggle. The duration of this condition increases by one [Round] for every time you hit the opponent again. Additionally, once per [Round], if you hit a [Battered] opponent with an attack, that opponent becomes [Dazed] for one [Round]. A successful Fortitude save (DC 10 + 1/2 your level + your Charisma modifier) negates the [Dazed] condition.</p>
+<h3 id="5th-circle-annihilation-ex">5th Circle &mdash; Annihilation <code>EX</code></h3>
+<p>When you Charge, your attacks gain a bonus to damage equal to your Charisma modifier for the duration of the [Encounter]. This ability stacks with itself up to two times.</p>
+<h3 id="6th-circle-scorched-earth-ex">6th Circle &mdash; Scorched Earth <code>EX</code></h3>
+<p>If you are reduced to less than half of your normal maximum HP, your attacks gain a bonus to damage equal to your Charisma modifier for the duration of the [Encounter] or until you are healed above that threshold.</p>
+<h3 id="7th-circle-war-engine-ex">7th Circle &mdash; War Engine <code>EX</code></h3>
+<p>Whenever you hit an opponent with an attack, that opponent becomes [Battered] and suffers a penalty to its AC equal to your Charisma modifier until the end of the [Encounter].</p>
+<h2 id="virtue-the-seven-circles-of-renewal">Virtue: The Seven Circles of Renewal</h2>
+<h3 id="1st-circle-font-su">1st Circle &mdash; Font <code>SU</code></h3>
+<p>Once per [Encounter], you may draw up an immobile wellspring of vitality called a font, which manifests as a low steady hum and a single spark of light. As a swift action, you may place it anywhere within 10 ft + 5 ft per two character levels. Each [Round], at the start of your turn, an arc of restorative energy strikes one ally of your choice within your [Close] range of the font, and heals 2 HP plus your character level and your Charisma modifier. A font expires after a number of [Rounds] equal to your Charisma modifier (minimum 2). Fonts do not occupy a square, and cannot be targeted or affected by anything but the Virtue track abilities of their creator.</p>
+<h3 id="2nd-circle-icon-ex">2nd Circle &mdash; Icon <code>EX</code></h3>
+<p>You may now place up to two fonts per [Encounter], using a separate swift action to place each.</p>
+<h3 id="3rd-circle-dawnsign-ex">3rd Circle &mdash; Dawnsign <code>EX</code></h3>
+<p>Fonts you place now persist for a number of [Rounds] equal to twice your Charisma modifier (minimum 4 [Rounds]), and an additional font emanates from you passively, beginning on your first turn each [Encounter].</p>
+<h3 id="4th-circle-vitality-engine-su">4th Circle &mdash; Vitality Engine <code>SU</code></h3>
+<p>If any portion of the HP healed by an arc would have no effect on a target due to his or her HP being full, instead of simply being wasted, that target gains temporary HP equal to the amount of healing that would have normally had no effect. Unlike normal temporary HP, this stacks to a maximum of half the target's normal max HP. This temporary HP lasts for the duration of the [Encounter].</p>
+<h3 id="5th-circle-holy-glyph-su">5th Circle &mdash; Holy Glyph <code>SU</code></h3>
+<p>Instead of its normal benefit, an arc from one of your fonts may be used to expunge any one of the following conditions: [Shaken], [Entangled], [Nauseated], [Dazzled], [Deafened], [Blinded], or [Sickened].</p>
+<p>You can trigger and direct a single arc from one of your fonts as a swift action, in addition to the normal arcs at the beginning of your turn.</p>
+<h3 id="6th-circle-star-spark-su">6th Circle &mdash; Star Spark <code>SU</code></h3>
+<p>An arc may be used to expunge any one of the following conditions instead of healing: [Stunned], [Slowed], [Battered], or [Dazed]. Additionally, any time you use your swift action to generate an additional arc, you may destroy any one of your fonts to create an arc that heals 50 points of damage and [Teleport] that ally anywhere within range of a remaining font. You may not destroy the font emanating from your person.</p>
+<h3 id="7th-circle-rebirth-su">7th Circle &mdash; Rebirth <code>SU</code></h3>
+<p>You may destroy a font as part of your swift action to generate an arc that revives a [Dead] ally, healing the ally to 50 hit points in the process (if the ally's maximum hit points are less than 50, he gains the rest as temporary HP). If you opt to do this, you may not destroy a font with Star Spark as part of the same action. You may not destroy the font emanating from your person.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../ranger/" class="btn btn-neutral float-right" title="Ranger">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../monk/" class="btn btn-neutral" title="Monk"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../monk/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../ranger/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
+</html>

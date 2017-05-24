@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Fighter - Legend: To The East</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Fighter";
+    var mkdocs_page_input_path = "classes\\fighter.md";
+    var mkdocs_page_url = "/classes/fighter/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Legend: To The East</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Section I: Introduction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../gameplay-basics/">Section II: Gameplay Basics</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../character-creation/">Section III: Character Creation & Advancement</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../races/">Section IV: Races</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../">Section V: Classes</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Section Va: Class List</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../barbarian/">Barbarian</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Fighter</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#base-stats">Base Stats</a></li>
+    
+
+    <li class="toctree-l3"><a href="#class-skills">Class Skills</a></li>
+    
+
+    <li class="toctree-l3"><a href="#party-role">Party Role</a></li>
+    
+
+    <li class="toctree-l3"><a href="#fighters-in-your-game">Fighters in Your Game</a></li>
+    
+
+    <li class="toctree-l3"><a href="#multiclassing-tips">Multiclassing Tips</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#attack-and-save-progression">Attack and Save Progression</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#martial-prowess">Martial Prowess</a></li>
+    
+
+    <li class="toctree-l3"><a href="#fighter-tracks">Fighter Tracks</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#soldier">Soldier</a></li>
+        
+            <li><a class="toctree-l4" href="#forger">Forger</a></li>
+        
+            <li><a class="toctree-l4" href="#crashing-wave">Crashing Wave</a></li>
+        
+            <li><a class="toctree-l4" href="#darting-kingfisher">Darting Kingfisher</a></li>
+        
+            <li><a class="toctree-l4" href="#flickering-candle">Flickering Candle</a></li>
+        
+            <li><a class="toctree-l4" href="#shining-sun">Shining Sun</a></li>
+        
+            <li><a class="toctree-l4" href="#unrelenting-storm">Unrelenting Storm</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../monk/">Monk</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../paladin/">Paladin</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ranger/">Ranger</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../rogue/">Rogue</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../sage/">Sage</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../shaman/">Shaman</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../tactician/">Tactician</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../additional-tracks/">Section VI: Additional Tracks</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Section VIa: Track List</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../extra-tracks/chirurgic-poet/">Chirurgic Poet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../extra-tracks/combat-alchemist/">Combat Alchemist</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Section VII: Skills</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../skills/skills/">Overview</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../skills/physical/">Physical Skills</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../skills/knowledge/">Knowledge Skills</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../skills/interaction/">Interaction Skills</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Legend: To The East</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Section Va: Class List &raquo;</li>
+        
+      
+    
+    <li>Fighter</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="base-stats">Base Stats</h1>
+<table>
+<thead>
+<tr>
+<th align="center">HP</th>
+<th align="center">Skills</th>
+<th align="center">KOM</th>
+<th align="center">KDM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">10</td>
+<td align="center">5</td>
+<td align="center">Varies</td>
+<td align="center">Varies</td>
+</tr>
+</tbody>
+</table>
+<p>Though all fighters are, of course, masterful warriors, they vary greatly in their specific skills and talents. At character generation, choose a single physical ability score (Strength Dexterity, or Constitution) to be your Key Offensive Modifier, and a single mental ability score (Intelligence, Wisdom, or Charisma) to be your Key Defensive Modifier.</p>
+<h1 id="class-skills">Class Skills</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Physical</th>
+<th align="center">Knowledge</th>
+<th align="center">Interaction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><code>[SKILL]</code></td>
+<td align="center"><code>[SKILL]</code></td>
+<td align="center"><code>[SKILL]</code></td>
+</tr>
+</tbody>
+</table>
+<p>The fighter is the supreme combatant. Tough and versatile, with devastating offensive potential, a fighter unquestionably belongs at the forefront of the assault. Fighters are a diverse lot, but the thing they all have in common with one another is their incredible, even fantastical, martial prowess.</p>
+<h1 id="party-role">Party Role</h1>
+<p>Almost all fighters stand in the front line, swinging away and absorbing damage while their squishier allies hide behind them (though some fighters who choose to train themselves in archery and knife-throwing rain death on their foes from behind the melee warriors).</p>
+<h1 id="fighters-in-your-game">Fighters in Your Game</h1>
+<p>While most fighters use one of the Martial Styles detailed below, that doesn’t mean that they were all trained in dojos or tutored by aging hermits living high up in the mountains. A Crashing Wave disciple could be described as an untrained, raging, savage warrior, for example, even though they possess a martial artist track.</p>
+<h1 id="multiclassing-tips">Multiclassing Tips</h1>
+<p>The Swashbuckler track works well with many of the Martial Styles, especially Shining Sun, and Smiting is very effective when combined with the Soldier track. Players who desire a more traditional, archetypal fighter may be interested in switching out the Forger track for Acrobatic Adept, Discipline of the Crane, or Path of the Ancestors.</p>
+<h2 id="attack-and-save-progression">Attack and Save Progression</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Level</th>
+<th align="center">BAB</th>
+<th align="center">Good Saves</th>
+<th align="center">Poor Saves</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">3</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">4</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">4</td>
+<td align="center">4</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">5</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">6</td>
+<td align="center">6</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">7</td>
+<td align="center">6</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">8</td>
+<td align="center">7</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">9</td>
+<td align="center">8</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">10</td>
+<td align="center">8</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">11</td>
+<td align="center">9</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">12</td>
+<td align="center">10</td>
+<td align="center">6</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">13</td>
+<td align="center">10</td>
+<td align="center">6</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">14</td>
+<td align="center">11</td>
+<td align="center">7</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">15</td>
+<td align="center">12</td>
+<td align="center">7</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">16</td>
+<td align="center">12</td>
+<td align="center">8</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">17</td>
+<td align="center">13</td>
+<td align="center">8</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">18</td>
+<td align="center">14</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">19</td>
+<td align="center">14</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">20</td>
+<td align="center">15</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="center">21</td>
+<td align="center">21</td>
+<td align="center">16</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="center">22</td>
+<td align="center">22</td>
+<td align="center">16</td>
+<td align="center">11</td>
+</tr>
+<tr>
+<td align="center">23</td>
+<td align="center">23</td>
+<td align="center">17</td>
+<td align="center">11</td>
+</tr>
+<tr>
+<td align="center">24</td>
+<td align="center">24</td>
+<td align="center">18</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td align="center">25</td>
+<td align="center">25</td>
+<td align="center">18</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td align="center">26</td>
+<td align="center">26</td>
+<td align="center">19</td>
+<td align="center">13</td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">27</td>
+<td align="center">20</td>
+<td align="center">13</td>
+</tr>
+<tr>
+<td align="center">28</td>
+<td align="center">28</td>
+<td align="center">21</td>
+<td align="center">14</td>
+</tr>
+<tr>
+<td align="center">29</td>
+<td align="center">29</td>
+<td align="center">21</td>
+<td align="center">14</td>
+</tr>
+<tr>
+<td align="center">30</td>
+<td align="center">30</td>
+<td align="center">22</td>
+<td align="center">15</td>
+</tr>
+</tbody>
+</table>
+<h3 id="saves">Saves</h3>
+<p>Fighters may choose Reflex or Will as their good save. Fortitude is always a good save for Fighters.</p>
+<h1 id="martial-prowess">Martial Prowess</h1>
+<p>You gain a +1 to Attack Rolls and AC.</p>
+<h1 id="fighter-tracks">Fighter Tracks</h1>
+<p>All Fighters gain the Soldier and Forger tracks, and may then choose a Martial Style.</p>
+<h2 id="soldier">Soldier</h2>
+<p>Some warriors depend on brute strength, others on technical skill. You are clearly the latter, so refined that you never take a single misstep. For every success you have, you gain momentum, which just makes you more potent. Truly, you are a martial juggernaut, nigh impossible to best in combat.</p>
+<p>This track's abilities depend on <code>[Concentration points]</code>. A <code>[Concentration point]</code> is a mechanic unique to the Soldier track, and can be used only to activate Soldier abilities. <code>[Concentration points]</code> expire at the end of the <code>[Encounter]</code>, and you can have and expend a maximum number of <code>[Concentration points]</code> equal to twice your level in any given <code>[Round]</code>. Spending <code>[Concentration points]</code> is a non-action that can be done at any point during a <code>[Round]</code> (not just on your turn), but any ability requiring the spending of <code>[Concentration points]</code> can only be used once per <code>[Round]</code> unless otherwise noted (see below). It is not possible to reduce your <code>[Concentration point]</code> total below zero.</p>
+<p>You start each <code>[Encounter]</code> with a number of <code>[Concentration points]</code> equal to the number of circles you have in this track.</p>
+<p><code>*</code>[Amplifying]<code>`: abilities with an asterisk can be used twice at the same time by spending twice the necessary</code>[Concentration points]<code>, doubling their effects. This allows a Soldier to bypass the once per</code>[Round]` limit on abilities.</p>
+<h3 id="1st-circle-focused-soldier-ex">1st Circle – Focused Soldier <code>EX</code></h3>
+<p>Once per <code>[Round]</code>, when you hit an opponent with an attack, or an attack misses you, you gain one <code>[Concentration point]</code>. Additionally, you gain all of the following abilities:</p>
+<h4 id="dodge">Dodge <code>*</code></h4>
+<p>You can spend two <code>[Concentration points]</code> to gain a bonus to saves, and a deflection bonus to AC, equal to half the number of circles you have in this track for one <code>[Round]</code>, minimum 1.</p>
+<h4 id="recharge">Recharge</h4>
+<p>Once per <code>[Round]</code>, you can spend a swift action to gain a number of <code>[Concentration points]</code> equal to your highest circle in this track.</p>
+<h4 id="strike">Strike</h4>
+<p>When you make an attack, you can spend two <code>[Concentration points]</code> to gain a +2 bonus on the attack roll. If that attack hits, it deals additional damage equal to half your level.</p>
+<h4 id="withstand">Withstand</h4>
+<p>You can spend two <code>[Concentration points]</code> to gain <code>[Lesser resistance]</code> against the damage dealt by one incoming attack, after you know the result of that attack.</p>
+<h3 id="2nd-circle-skilled-soldier-ex">2nd Circle – Skilled Soldier <code>EX</code></h3>
+<p>You gain two <code>[Concentration points]</code> whenever the Focused Soldier ability activates, instead of one. Additionally, you gain all of the following abilities:</p>
+<h4 id="feint">Feint</h4>
+<p>By spending three <code>[Concentration points]</code>, you can force one opponent you have line of sight to to make a Will save (DC 10 + 1/2 your level + your KOM) or be affected as if you had successfully used the in-combat use of the Bluff skill against them.</p>
+<h4 id="terrify">Terrify</h4>
+<p>By spending three <code>[Concentration points]</code>, you can force one opponent you have line of sight to to make a Will save (DC 10 + 1/2 your level + your KOM) or be affected as if you had successfully used the in-combat use of the Intimidate skill against them.</p>
+<h4 id="veterans-analysis">Veteran’s Analysis</h4>
+<p>By spending three <code>[Concentration points]</code>, you can force one opponent you have line of sight to to make a Will save (DC 10 + 1/2 your level + your KOM) or be affected as if you had successfully used the in-combat use of the Perception skill against them.</p>
+<h3 id="3rd-circle-powerful-soldier-ex">3rd Circle – Powerful Soldier <code>EX</code></h3>
+<p>You gain three <code>[Concentration points]</code> whenever the Focused Soldier ability activates, instead of two. Additionally, you gain all of the following abilities:</p>
+<h4 id="adrenaline">Adrenaline <code>*</code></h4>
+<p>By spending four <code>[Concentration points]</code> you gain a number of temporary hit points equal to your character level and a 10 ft bonus to your movement speed for one <code>[Round]</code>.</p>
+<h4 id="disable">Disable <code>*</code></h4>
+<p>When you make an attack, you can spend four <code>[Concentration points]</code>. If that attack hits, it reduces your opponent’s move speed by half for one <code>[Round]</code>.</p>
+<h4 id="reorient">Reorient</h4>
+<p>When you use Recharge, you now gain a number of <code>[Concentration points]</code> equal to twice your highest circle in this track.</p>
+<h3 id="4th-circle-brilliant-soldier-ex">4th Circle – Brilliant Soldier <code>EX</code></h3>
+<p>You gain four <code>[Concentration points]</code> whenever the Focused Soldier ability activates, instead of three. Once per <code>[Encounter]</code> per four levels, you may use one of the following abilities:</p>
+<h4 id="bash">Bash</h4>
+<p>When you make an attack, you can spend five <code>[Concentration points]</code> to cause that attack, if it hits to force the opponent to make a Fortitude save (DC 10 + ½ your level + your KOM) or be knocked <code>[Prone]</code>.</p>
+<h4 id="duck">Duck</h4>
+<p>When your Armor Class is targeted by an attack, you can spend five <code>[Concentration points]</code> to gain a +5 bonus to AC against that one attack, and if your opponent misses you, and if they are in a square you threaten, you can make an attack of opportunity against them.</p>
+<h4 id="leap-attack">Leap Attack <code>*</code></h4>
+<p>Immediately before using a standard action, you can spend five <code>[Concentration points]</code> to move up to your movement speed.</p>
+<h3 id="5th-circle-mighty-soldier-ex">5th Circle – Mighty Soldier <code>EX</code></h3>
+<p>You gain five <code>[Concentration points]</code> whenever the Focused Soldier ability activates, instead of four. Once per <code>[Encounter]</code> per four levels, you may use one of the following abilities:</p>
+<h4 id="keep-going">Keep Going</h4>
+<p>By expending six <code>[Concentration points]</code>, you gain <code>[Immunity]</code> to <code>[Unconscious]</code> and <code>[Dying]</code> for one <code>[Round]</code>, though you still die when your hit point total reaches your negative Constitution score.</p>
+<h4 id="lock-blades">Lock Blades</h4>
+<p>By expending six <code>[Concentration]</code> points when an opponent leaves your <code>[Melee]</code> range, that opponent must make a Reflex save (DC 10 + ½ your level + your KOM) or become <code>[Grappled]</code> by you as if hit by the Grapple combat maneuver.</p>
+<h4 id="recuperate">Recuperate</h4>
+<p>When you use Recharge, you now gain a number of <code>[Concentration points]</code> equal to three times your highest circle in this track.</p>
+<h3 id="6th-circle-genius-soldier-ex">6th Circle – Genius Soldier <code>EX</code></h3>
+<p>You gain six <code>[Concentration points]</code> whenever the Focused Soldier ability activates, instead of five. Once per <code>[Encounter]</code> per five levels, you may use one of the following abilities:</p>
+<h4 id="redirect">Redirect</h4>
+<p>When an opponent targets you with a single-target offensive action, you can expend seven <code>[Concentration points]</code>, before you learn the result of the offensive action, to change its target to another opponent within the offensive action’s range. The opponent whose offensive action is being redirected is entitled to a Reflex save (DC 10 + ½ your level + your KOM) to negate this effect.</p>
+<h4 id="send-flying">Send Flying</h4>
+<p>By spending seven <code>[Concentration points]</code> at the beginning of your turn, you can add devastating force to your blows. For one <code>[Round]</code>, every time you hit an opponent with an attack, that opponent is <code>[Blown away]</code>. A successful Reflex save (DC 10 + ½ your level + your KOM) negates the <code>[Blown away]</code> effect.</p>
+<h3 id="7th-circle-deadly-soldier-ex">7th Circle – Deadly Soldier <code>EX</code></h3>
+<p>You gain seven <code>[Concentration points]</code> whenever the Focused Soldier ability activates, instead of six. Once per <code>[Encounter]</code> per five levels, by expending eight <code>[Concentration points]</code>, you may use one of the following abilities:</p>
+<h4 id="rejuvenate">Rejuvenate</h4>
+<p>When you use Recharge, you now gain a number of <code>[Concentration points]</code> equal to four times your highest circle in this track.</p>
+<h4 id="untouchable">Untouchable</h4>
+<p>For one <code>[Round]</code>, as a free action, you gain <code>[Greater resistance]</code> to physical damage. However, in the <code>[Round]</code> after that, you gain <code>[Vulnerability]</code> to physical damage. You may not use Untouchable for two <code>[Rounds]</code> in a row.</p>
+<h4 id="crushing-blow">Crushing Blow</h4>
+<p>When you make an attack, you can spend eight <code>[Concentration points]</code>. If that attack hits, it deals additional damage equal to three times your character level.</p>
+<h2 id="forger">Forger</h2>
+<p>There are Blacksmiths, who craft weapons and armor, and then there are Forgers, who craft legends. You are, of course, the latter. No one knows their way around a smithy better or is more at home with a hammer and anvil in their hands. However, your talents are not confined to the workshop – you have also developed a unique resilience that allows you to withstand furious onslaughts in the heat of battle.</p>
+<h3 id="1st-circle-child-of-iron">1st Circle - Child of Iron</h3>
+<p>Choose two items (each must be a weapon, armor, or a shield) in your possession. A weapon increases its item bonus to attack rolls by 1, armor increases its item bonus to AC by 1, and a selected shield increases its deflection bonus to AC by 1. The item to which these bonuses apply may be changed at the beginning of each <code>[Scene]</code>. </p>
+<p>If an item affected by this track is not used by you (or, at 4th circle, its recipient), it loses all benefits of this track.</p>
+<p>Additionally, between <code>[Scenes]</code>, you may change or remove the mundane weapon properties of any weapon in your possession (this includes any weapons loaned to you by allies, or stolen from enemies – in other words, the weapon does not have to be yours in order for you to alter its properties).</p>
+<h3 id="2nd-circle-smiths-sturdiness">2nd Circle - Smith’s Sturdiness</h3>
+<p>You gain <code>[Lesser resistance]</code> to physical damage. Additionally, you gain the constant benefit of the Endure Elements spell, but only as it regards Heat.</p>
+<h3 id="3rd-circle-sunder">3rd Circle  - Sunder</h3>
+<p>Once per <code>[Round]</code>, and a total number of times per <code>[Encounter]</code> equal to half the number of circles you have in this track, after a melee attack has been made against you, you can immediately (regardless of whether it hit or missed) force your opponent to make a Reflex save (DC 10 + 1/2 your level + your KOM) or be disarmed as if you had used the Disarm combat maneuver.</p>
+<h3 id="4th-circle-metalworkers-mastery">4th Circle - Metalworker’s Mastery</h3>
+<p>In addition to the two chosen items that you carry, Child of Iron can affect one item possessed by an ally (chosen at the beginning of each <code>[Scene]</code>). Between <code>[Scenes]</code>, you may change or remove the magical item properties of any magic item in your possession (this includes any items loaned to you by allies, or stolen from enemies – in other words, the item does not have to be occupying one of your item slots in order for you to alter its properties). This only affects weapons created using the Item Point Buy rules.</p>
+<h3 id="5th-circle-greater-sunder">5th Circle - Greater Sunder</h3>
+<p>You may use your Sunder ability at will (though still only once per <code>[Round]</code>), and weapons affected by Sunder lose two weapon properties of the wielder's choice until the end of the <code>[Encounter]</code>.</p>
+<h3 id="6th-circle-forgers-fortitude">6th Circle - Forger’s Fortitude</h3>
+<p>You gain <code>[Fast healing]</code> equal to your character level and your <code>[Lesser resistance]</code> to physical damage increases to <code>[Resistance]</code>.</p>
+<h3 id="7th-circle-lord-of-iron">7th Circle - Lord of Iron</h3>
+<p>The items you select to be affected by your Child of Iron ability now have their item bonuses increased by two instead of one, and every weapon, armor, or shield you select for your Child of Iron ability gains one additional point that can be spent on magical enchantment. This does not change the slot the item takes up (so a Relic weapon that you use Child of Iron on has four points of enchantments, but still takes up a Relic slot).</p>
+<p>Additionally, anyone wielding a weapon benefiting from your Child of Iron ability gains <code>[Immunity]</code> to being disarmed by the Disarm maneuver, and weapons affected by Child of Iron can never have their properties removed (although they can still be changed, such as using Metalworker’s Mastery or the Variable magic weapon property).</p>
+<h2 id="crashing-wave">Crashing Wave</h2>
+<p>You always loved the ocean, and the part that fascinates you most is the rolling of the tides. They sweep up and down the beach, carrying shells and debris, and can be both beautiful and frighteningly destructive. You seek to emulate these crashing waves in the midst of combat.</p>
+<p>All bonuses from this track are fury bonuses, which stack with other fury bonuses from this track. At the beginning of your turn, you may choose not to benefit from fury bonuses to attack rolls, damage and save DCs until the beginning of your next turn. Attacks and abilities that benefit from a fury bonus to attack rolls, damage or save DCs cannot also deal <code>[Precision]</code> damage.</p>
+<h3 id="1st-circle-tide-ex">1st Circle – Tide EX</h3>
+<p>You are adept at emulating the motions of a restless sea, making slow, powerful swings that devastate your foes. As a standard action, you may make a single melee attack. This attack gains a bonus on the attack roll equal to the number of circles you have in this track and deals bonus damage equal to your level.</p>
+<h3 id="2nd-circle-eroding-waters-ex">2nd Circle – Eroding Waters EX</h3>
+<p>You wear down your enemies like water on rock. If you hit the same opponent with a Tide attack twice in the same <code>[Encounter]</code>, they are <code>[Fatigued]</code> for the rest of the <code>[Encounter]</code>. If you hit the same opponent with Tide four times in the same <code>[Encounter]</code>, they lose <code>[Fatigued]</code> and instead become <code>[Exhausted]</code> for the rest of the <code>[Encounter]</code>.</p>
+<h3 id="3rd-circle-roiling-sea-ex">3rd Circle – Roiling Sea EX</h3>
+<p>Your blows wax and wane like flowing waves. When you make a Tide attack, you can opt to ignore two points of <code>[Damage reduction]</code> and <code>[Resistance]</code> per circle you have in this track. In the following <code>[Round]</code>, you gain two points of <code>[Damage reduction]</code> per circle you have in this track. You cannot use this ability in two consecutive <code>[Rounds]</code>.</p>
+<h3 id="4th-circle-deadly-current-ex">4th Circle – Deadly Current EX</h3>
+<p>You toss your enemies to and fro like a riptide. Your Tide attacks now deal bonus damage equal to twice your level instead of your level, and are treated as a hit with one of the following combat maneuvers, forcing your opponent to make a save against the effect of the chosen combat maneuver as normal: Bull Rush, Disarm, Grapple, or Trip (chosen at the time the Tide attack is made).</p>
+<h3 id="5th-circle-oceans-roar-ex">5th Circle – Ocean’s Roar EX</h3>
+<p>Behind every swipe of your sword is the rushing sound of water and the might of a tidal wave. Whenever you use Roiling Sea, you can ignore four points of <code>[Damage reduction]</code> and resistance instead of two, your target becomes <code>[Deafened]</code> until the end of the <code>[Encounter]</code>, and if your attack hits, you can make a <code>[Bonus attack]</code>, and you gain three points of <code>[Damage reduction]</code> per circle you have in this track in the following <code>[Round]</code> instead of two.</p>
+<h3 id="6th-circle-whirlpool-ex">6th Circle – Whirlpool EX</h3>
+<p>You manipulate the battlefield, sending adversaries flying in all directions. You are an eye of calm at the center of a vortex of destruction. When you hit an opponent with a Tide attack, that opponent takes a penalty to attack rolls and AC equal to half your highest circle of the Crashing Wave track for the remainder of the <code>[Encounter]</code>. This penalty does not stack with itself. Additionally, once per <code>[Encounter]</code> per five levels, as a free action once per <code>[Round]</code>, all opponents in <code>[Close]</code> range of you must make a Fortitude save (DC 10 + 1/2 your level + your KOM) or be <code>[Blown away]</code> in a direction of your choice.</p>
+<h3 id="7th-circle-tsunami-ex">7th Circle – Tsunami EX</h3>
+<p>You are the ultimate embodiment of the destruction an ocean can wreak. Your Tide attacks deal bonus damage equal to three times your level instead of twice your level, and opponents hit by your Tide attacks are <code>[Energy drained]</code>. Additionally, your Tide attacks are treated as hits with two of the combat maneuvers made available by Deadly Current instead of one.</p>
+<h2 id="darting-kingfisher">Darting Kingfisher</h2>
+<p>Most people see combat as a fight to the death with a mortal enemy. You don’t look at it that way. To you, a battle is as simple as a kingfisher hunting fish, predator and prey…and anyone who has seen you in action knows exactly which one is you. You don’t believe in honorable duels, and you don’t salute your opponent before attacking them. You are efficient, ruthless, and deadly.</p>
+<p>All bonuses from this track are fury bonuses, which do not stack with other tracks’ fury bonuses. A creature benefiting from a fury bonus may not benefit from other sources of <code>[Precision]</code> damage.</p>
+<p>Some abilities in this track are denoted as <code>[Kingfisher]</code> abilities. <code>[Kingfisher]</code> abilities may not be used together on the same attack (although they can be used together over the course of one attack action if applied to different attacks).</p>
+<h3 id="1st-circle-ambush-ex">1st Circle – Ambush EX</h3>
+<p>You attack silently and without warning. You don’t play by the rules in combat, and you’re proud of it. You gain a +2 bonus to Acrobatics checks and the in-combat use of the Bluff skill, and you deal 1d4 bonus damage per circle you have in this track on successful attacks against <code>[Flat-footed]</code> opponents.</p>
+<h3 id="2nd-circle-vicious-dive-ex">2nd Circle – Vicious Dive EX</h3>
+<p>Like a kingfisher swooping down from the branches, you appear out of nowhere and pierce your victim’s flesh. Once per <code>[Round]</code>, a <code>[Flat-footed]</code> opponent hit by one of your attacks becomes <code>[Bleeding]</code>.</p>
+<h3 id="3rd-circle-kingfishers-strike-ex">3rd Circle – Kingfisher’s Strike EX</h3>
+<p>You knock the wind out of your prey or sweep them off their feet. Once per <code>[Round]</code>, a <code>[Flat-footed]</code> opponent hit by one of your attacks is <code>[Slowed]</code> for one <code>[Round]</code> or knocked <code>[Prone]</code>. This is a <code>[Kingfisher]</code> ability. Additionally, your Vicious Dive ability applies to all successful attacks you make against <code>[Flat-footed]</code> opponents, not just one per <code>[Round]</code>.</p>
+<h3 id="4th-circle-kingfishers-spear-ex">4th Circle – Kingfisher’s Spear EX</h3>
+<p>With a thrust to the hamstring or a similar deft maneuver, you severely hamper your foe’s mobility. Once per <code>[Round]</code>, a <code>[Flat-footed]</code> opponent hit by one of your attacks becomes <code>[Entangled]</code> for two <code>[Rounds]</code>. This is a <code>[Kingfisher]</code> ability. Whenever you use a <code>[Kingfisher]</code> ability, you inflict the <code>[Battered]</code> condition on your opponent. </p>
+<p>Additionally, the bonus damage on successful attacks against <code>[Flat-footed]</code> opponents you gained from your Ambush ability now increases to 2d4 per circle you have in this track.</p>
+<h3 id="5th-circle-kingfishers-lash-ex">5th Circle – Kingfisher’s Lash EX</h3>
+<p>You swipe for your target’s eyes, leaving them unable to defend themselves while they struggle to regain their sight. Once per <code>[Round]</code>, a <code>[Flat-footed]</code> opponent hit by one of your attacks becomes <code>[Blinded]</code> for two <code>[Rounds]</code>. This is a <code>[Kingfisher]</code> ability. Whenever you use a <code>[Kingfisher]</code> ability, you inflict the <code>[Sickened]</code> condition on your opponent. </p>
+<p>Additionally, for every <code>[Kingfisher]</code> ability you have used on an opponent in this <code>[Encounter]</code>, you gain a +1 bonus on attack rolls, and a +2 bonus to damage on attacks, against that opponent.</p>
+<h3 id="6th-circle-kingfishers-stun-ex">6th Circle – Kingfisher’s Stun EX</h3>
+<p>You stun your unfortunate opponent with a sudden blow. Once per <code>[Round]</code>, and a total of three times per <code>[Encounter]</code>, a <code>[Flat-footed]</code> opponent hit by one of your attacks must make a Fortitude save (DC 10 + 1/2 your level + your KOM) or become <code>[Dazed]</code>. This is a <code>[Kingfisher]</code> ability.</p>
+<p>Additionally, whenever you use a <code>[Kingfisher]</code> ability, you inflict the <code>[Prone]</code> condition on your opponent. </p>
+<h3 id="7th-circle-death-from-above-ex">7th Circle – Death From Above EX</h3>
+<p>Once per <code>[Encounter]</code>, after making a successful attack and activating a <code>[Kingfisher]</code> ability (the opponent does not need to fail its save, if there is one), you can deal an extra 6 damage per level you possess and make the target <code>[Nauseated]</code>. This is a <code>[Death]</code> effect.</p>
+<h2 id="flickering-candle">Flickering Candle</h2>
+<p>You are not a fire elemental, but it might be said that you resemble one. You almost seem to flicker as you move, and glowing sparks dance in your eyes. In combat, you wait for your opponent to make a mistake, hypnotizing them with your fluid and acrobatic movements until they expose themselves to your devastating strikes.</p>
+<h3 id="1st-circle-swaying-fires-ex">1st Circle – Swaying Fires <code>EX</code></h3>
+<p>You strike with the swiftness of a fleeting flame. Once per <code>[Round]</code>, as a move action or part of a move action, directly before making an attack, you can declare which opponent you will be attacking and make an Acrobatics check (DC 10 + your opponent’s level). You deal bonus <code>[Precision]</code> damage on your next attack equal to the amount by which your Acrobatics check exceeded the DC.</p>
+<h4 id="tumbler-ex">Tumbler <code>EX</code></h4>
+<p>Additionally, you gain a +2 bonus to Acrobatics checks.</p>
+<h3 id="2nd-circle-flame-sting-ex">2nd Circle – Flame Sting <code>EX</code></h3>
+<p>Those who thrust their hands into flames often find themselves burned. As a standard action, make a single attack. Whenever you are attacked until the beginning of your next turn, immediately after the attack is resolved, you can make an attack against the opponent that attacked you. This attack is called a Flame Sting attack. At 2nd circle you may only make one Flame Sting attack per <code>[Round]</code>. This expands to two Flame Sting attacks per <code>[Round]</code> at 4th circle, and three Flame Sting attacks per <code>[Round]</code> at 6th circle. You can never use a Flame Sting attack in the same <code>[Round]</code> that you use a Once More! attack, and vice versa.</p>
+<h4 id="cant-catch-me-ex">Can’t Catch Me! <code>EX</code></h4>
+<p>Additionally, once per <code>[Round]</code>, when an attack misses you, you gain a number of temporary hit points equal to your KOM for one <code>[Round]</code>. This increases to twice your KOM at fourth circle and three times your KOM at sixth circle.</p>
+<p>### 3rd Circle – Entrancing Flame <code>EX</code></p>
+<p>The beautiful and deadly movements of fire have been 
+ known to mesmerize onlookers. If you are within the range of an opponent’s attack (whether it is melee or ranged), at your option, when they declare they are attacking, they must make a Will save (DC 10 + 1/2 your level + your KDM) or be forced to attack you instead of their intended target.
+          Lightning Draw: Additionally, you treat all weapons as if they possess the <code>[Quick-draw]</code> property.</p>
+<h3 id="4th-circle-dancing-fires-ex">4th Circle – Dancing Fires  <code>EX</code></h3>
+<p>You sear your enemies like a burning torch. Whenever you 
+use Swaying Fires, the bonus <code>[Precision]</code> damage applies to all attacks you make against that opponent in that <code>[Round]</code>.</p>
+<h3 id="5th-circle-shifting-embers-ex">5th Circle – Shifting Embers <code>EX</code></h3>
+<p>You spin and twist around your foes like a roaring inferno. After making a Flame Sting attack, you can immediately move 10 ft. Unless you are hit with an attack of opportunity for this movement, you gain a 20% <code>[Miss chance]</code> against the opponent you attacked for one <code>[Round]</code>. If that opponent is within <code>[Melee]</code> range, you can cause them to move 10 ft in the same direction, as well as to begin <code>[Burning]</code>. If that opponent is within <code>[Close]</code> range, you may make them <code>[Flat-footed]</code> against your attacks until the beginning of your next turn.</p>
+<h3 id="6th-circle-raging-fires-ex">6th Circle – Raging Fires <code>EX</code></h3>
+<p>With the deft skill of a trained martial artist, you can toss your opponents to and fro, felling them like logs beneath the heel of a devastating forest fire. You can use Swaying Fires as a free action, and once per <code>[Round]</code>, when an opponent is hit by an attack affected by Swaying Fires, they must make a Reflex save (DC 10 + 1/2 your level + your KOM) or become <code>[Burning]</code>, <code>[Entangled]</code>, and <code>[Prone]</code>.</p>
+<h3 id="7th-circle-servant-of-the-secret-fire-ex">7th Circle – Servant of the Secret Fire <code>EX</code></h3>
+<p>You know the great techniques of the art of the Flickering Candle, taught only to the most loyal and skilled disciples. Whenever you decide to use Entrancing Flame, it works automatically (instead of requiring a save). Additionally, any Acrobatics check you make is treated as a natural 20.</p>
+<h2 id="shining-sun">Shining Sun</h2>
+<p>When asked, “What is your weapon of choice?” you point at your fellow adventurers. While you are an able combatant in your own right, your main strength is in inspiring or advising your allies. Like the celestial body your style is named for, you light the way for your companions, illuminating the darkness that lies before them.</p>
+<h3 id="1st-circle-all-seeing-sun-ex">1st Circle – All-Seeing Sun <code>EX</code></h3>
+<p>Your shining rays lead your friends towards new levels of greatness. You have learned that working as a team is of utmost importance in battle, so you ensure that your companions do so. If two or more allies you have line of sight to threaten the same opponent, they gain a +1 bonus to attack rolls, and add half your level to damage on attacks against that opponent.</p>
+<h3 id="2nd-circle-glowing-surge-ex">2nd Circle – Glowing Surge <code>EX</code></h3>
+<p>Through tactics, insight, or inspiring words, you can spur a companion forward. Once per <code>[Round]</code>, as a swift action, one ally you have line of sight to may move up to their movement speed in a direction of their choice.</p>
+<h3 id="3rd-circle-dazzling-surge-ex">3rd Circle – Dazzling Surge <code>EX</code></h3>
+<p>Upon hearing your words, or seeing you standing proud like a shining beacon amidst the chaos of war, those around you are instilled with renewed vigor and determination. Once per <code>[Encounter]</code> per five levels, when you use Glowing Surge on an ally, that ally can make a single melee or ranged attack at the end of their movement. This is a <code>[Bonus attack]</code>.</p>
+<p>### 4th Circle – Beams of Inspiration <code>EX</code></p>
+<p>A shrewd warning or a piece of advice gives your fellow warrior an extra trick up their sleeve. Once per <code>[Round]</code>, and a total number of times per <code>[Encounter]</code> equal to one for every five levels you have, you can grant an ally an extra swift or move action. The target ally can take no more than a total of three swift and immediate actions per <code>[Round]</code> using this ability. This ability is not an action and can be used at any point during a <code>[Round]</code>, even when it is not your turn.</p>
+<h3 id="5th-circle-rays-of-death-ex">5th Circle – Rays of Death <code>EX</code></h3>
+<p>In addition to inspiring hope in the minds of your allies, you also strike fear in the hearts of your enemies. At the end of your turn, opponents in your <code>[Close]</code> range must make a Will save (DC 10 + 1/2 your level + your KOM) or become <code>[Shaken]</code>. You may only use this ability every other <code>[Round]</code>. This is a <code>[Fear]</code> <code>[Mind-affecting]</code> ability.</p>
+<h3 id="6th-circle-blinding-surge-ex">6th Circle – Blinding Surge <code>EX</code></h3>
+<p>You incite your comrades onward towards legend. Once per <code>[Encounter]</code> when you use Glowing Surge and Dazzling Surge, you can affect two allies instead of one. Additionally, your allies add half your level to initiative checks.</p>
+<h3 id="7th-circle-the-power-of-the-sun-ex">7th Circle – The Power of the Sun…: <code>EX</code></h3>
+<p>…is in the palm of your hand. Once per <code>[Encounter]</code> as a standard action, you can affect all allies you have line of sight to with your Glowing Surge and Dazzling Surge abilities. If an ally hits with an attack granted by this Dazzling Surge, the opponent they hit is <code>[Blinded]</code>. A successful Fortitude save (DC 10 + ½ your level + your KOM) negates the <code>[Blinded]</code> condition. This counts as a single use of your Dazzling Surge per <code>[Encounter]</code>.</p>
+<h2 id="unrelenting-storm">Unrelenting Storm</h2>
+<p>A storm is a visual and auditory symphony, filled with the roll of thunder and the flash of lightning. Many, overwhelmed by its strange beauty, fear the storm, but you have chosen to allow it to overwhelm you and become a part of you. You have learned to channel this energy through your hails of arrows and knives.</p>
+<h3 id="1st-circle-iron-lightning-ex">1st Circle – Iron Lightning <code>EX</code></h3>
+<p>You can turn any weapon you hold into a raindrop in a hurricane of steel. Any melee weapon you wield (unless it is a natural attack with no other properties, such as an Unarmed Strike) gains the <code>[Thrown]</code> property, and two other weapon properties of your choice, for as long as you wield it, and any ranged weapon you wield (unless it is a natural attack with no other properties) gains three weapon properties of your choice for as long as you wield it. Once made, this choice is permanent. These properties cannot be removed or traded away from a weapon you wield in any way, including through the Variable enchantment. You cannot grant a weapon the <code>[Arcane]</code> property with this ability. Additionally, once per <code>[Round]</code> after you hit an opponent with an attack, that opponent must make a Fortitude save (DC 10 + ½ your level + your KOM) or become <code>[Battered]</code> for one <code>[Round]</code>.</p>
+<h3 id="2nd-circle-ride-the-hurricane-ex">2nd Circle – Ride the Hurricane <code>EX</code></h3>
+<p>You carry yourself high through the air, as if the very winds were at your command. Once per <code>[Round]</code>, when you hit with a ranged attack, you can choose to gain <code>[Flying]</code> and the Fly movement mode until the end of your next turn. If you use this ability and you are already <code>[Flying]</code>, you can instead choose to deal additional damage with your ranged attack equal to half your level.</p>
+<p>### 3rd Circle – Raging Tempest <code>EX</code></p>
+<p>You rend the battlefield with your ferocious onslaught. Once per <code>[Encounter]</code> per five levels you possess, you can make a single ranged attack, as a standard action, that targets all opponents within its range. Abilities and effects other than the attack’s normal damage that take place as the result of a hit or critical hit only activate once as a result of this attack, and apply to no more than one opponent you hit, of your choice.</p>
+<h3 id="4th-circle-like-the-thunderbolt-ex">4th Circle – Like the Thunderbolt <code>EX</code></h3>
+<p>Your attacks are faster and more powerful than bolts of lightning, and your foes are lucky to even see them coming before they strike. On an attack action consisting only of ranged attacks, you can make one <code>[Bonus attack]</code>, and once per <code>[Round]</code>, an opponent hit with one of your ranged attacks must make a Reflex save (DC 10 + 1/2 your level + your KOM) or become <code>[Slowed]</code>. Additionally, whenever you use Ride the Hurricane, you can increase the range of any ranged weapon you wield by one range category (to a maximum of <code>[Extreme]</code> range).</p>
+<h3 id="5th-circle-eye-of-the-storm-ex">5th Circle – Eye of the Storm <code>EX</code></h3>
+<p>As a true disciple of the way of the storm, you never allow the chaos of battle to influence you. Ranged attacks you make do not provoke attacks of opportunity, and you gain a +3 bonus to ranged attack rolls.</p>
+<h3 id="6th-circle-far-reaching-rains-ex">6th Circle – Far-reaching Rains <code>EX</code></h3>
+<p>No place is safe from your violent downpour. If you are wielding a ranged weapon, you threaten all squares within your <code>[Close]</code> range. You can make attacks of opportunity with ranged weapons. Once per <code>[Round]</code>, and once per <code>[Encounter]</code> per four levels in total, you can make an attack of opportunity against an opponent who provokes one even if you have already expended all of your attacks of opportunity for the <code>[Round]</code>. Additionally, whenever you use Ride the Hurricane, you deal bonus damage equal to your level, instead of half your level.</p>
+<h3 id="7th-circle-distant-tornado-ex">7th Circle – Distant Tornado <code>EX</code></h3>
+<p>Sitting atop your pinnacle of furious glory, no enemy can touch you, and any fool who tries will feel the wrathful bite of your thunder and lightning. Once per <code>[Encounter]</code> as an immediate action, when an opponent enters a square within your <code>[Melee]</code> range, you can immediately move up to your speed and make a ranged attack action.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../monk/" class="btn btn-neutral float-right" title="Monk">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../barbarian/" class="btn btn-neutral" title="Barbarian"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../barbarian/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../monk/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
+</html>

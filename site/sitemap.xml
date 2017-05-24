@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-05-15</lastmod>
+     <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>/gameplay-basics/</loc>
-     <lastmod>2017-05-15</lastmod>
+     <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,9 +20,135 @@
     
     <url>
      <loc>/character-creation/</loc>
-     <lastmod>2017-05-15</lastmod>
+     <lastmod>2017-05-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
+    
+    <url>
+     <loc>/races/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/classes/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/classes/barbarian/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/classes/fighter/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/classes/monk/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/classes/paladin/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/classes/ranger/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/classes/rogue/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/classes/sage/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/classes/shaman/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/classes/tactician/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>/additional-tracks/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/extra-tracks/chirurgic-poet/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/extra-tracks/combat-alchemist/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/skills/skills/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/skills/physical/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/skills/knowledge/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/skills/interaction/</loc>
+     <lastmod>2017-05-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>
