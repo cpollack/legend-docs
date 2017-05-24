@@ -20,3 +20,8 @@ pages:
     - "Section VIa: Track List":
         - Chirurgic Poet: extra-tracks/chirurgic-poet.md
         - Combat Alchemist: extra-tracks/combat-alchemist.md
+    - "Section VII: Skills":
+        - Overview: skills/skills.md
+        - Physical Skills: skills/physical.md
+        - Knowledge Skills: skills/knowledge.md
+        - Interaction Skills: skills/interaction.md

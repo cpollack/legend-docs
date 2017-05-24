@@ -6,7 +6,7 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 ## Current Work
 
 ### Seppe
-* Skills
+* Feats
 
 ### Michael
 * Tactician
@@ -28,3 +28,4 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 * Additional Tracks
     * Chirurgic Poet
     * Combat Alchemist
+* Skills
