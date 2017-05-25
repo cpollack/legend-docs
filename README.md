@@ -11,6 +11,9 @@ For convenience's sake, please note below which files/sections/tracks etc you ar
 ### Michael
 * Tactician
 
+### Chris
+* Spell Lists
+
 ## Completed
 
 * Gameplay Basics
