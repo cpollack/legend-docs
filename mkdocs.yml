@@ -16,6 +16,7 @@ pages:
         - Sage: classes/sage.md
         - Shaman: classes/shaman.md
         - Tactician: classes/tactician.md
+        - Warlord:   classes/warlord.md
     - "Section VI: Additional Tracks": additional-tracks.md
     - "Section VIa: Track List":
         - Chirurgic Poet: extra-tracks/chirurgic-poet.md

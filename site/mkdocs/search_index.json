@@ -3521,6 +3521,176 @@
             "title": "The Playbook"
         },
         {
+            "location": "/classes/warlord/",
+            "text": "Base Stats\n\n\n\n\n\n\n\n\nHP\n\n\nSkills\n\n\nKOM\n\n\nKDM\n\n\n\n\n\n\n\n\n\n\n10\n\n\n6\n\n\nWis\n\n\nCon\n\n\n\n\n\n\n\n\nClass Skills\n\n\n\n\n\n\n\n\nPhysical\n\n\nKnowledge\n\n\nInteraction\n\n\n\n\n\n\n\n\n\n\n[SKILL]\n\n\n[SKILL]\n\n\n[SKILL]\n\n\n\n\n\n\n\n\n[CLASS BLURB]\n\n\nParty Role\n\n\n[ROLE BLURB]\n\n\n[CLASS] in Your Game\n\n\n[FLUFF BLURB]\n\n\nAttack and Save Progression\n\n\n\n\n\n\n\n\nLevel\n\n\nBAB\n\n\nGood Saves\n\n\nPoor Saves\n\n\n\n\n\n\n\n\n\n\n1\n\n\n1\n\n\n2\n\n\n0\n\n\n\n\n\n\n2\n\n\n2\n\n\n3\n\n\n1\n\n\n\n\n\n\n3\n\n\n3\n\n\n4\n\n\n1\n\n\n\n\n\n\n4\n\n\n4\n\n\n4\n\n\n2\n\n\n\n\n\n\n5\n\n\n5\n\n\n5\n\n\n2\n\n\n\n\n\n\n6\n\n\n6\n\n\n6\n\n\n3\n\n\n\n\n\n\n7\n\n\n7\n\n\n6\n\n\n3\n\n\n\n\n\n\n8\n\n\n8\n\n\n7\n\n\n4\n\n\n\n\n\n\n9\n\n\n9\n\n\n8\n\n\n4\n\n\n\n\n\n\n10\n\n\n10\n\n\n8\n\n\n5\n\n\n\n\n\n\n11\n\n\n11\n\n\n9\n\n\n5\n\n\n\n\n\n\n12\n\n\n12\n\n\n10\n\n\n6\n\n\n\n\n\n\n13\n\n\n13\n\n\n10\n\n\n6\n\n\n\n\n\n\n14\n\n\n14\n\n\n11\n\n\n7\n\n\n\n\n\n\n15\n\n\n15\n\n\n12\n\n\n7\n\n\n\n\n\n\n16\n\n\n16\n\n\n12\n\n\n8\n\n\n\n\n\n\n17\n\n\n17\n\n\n13\n\n\n8\n\n\n\n\n\n\n18\n\n\n18\n\n\n14\n\n\n9\n\n\n\n\n\n\n19\n\n\n19\n\n\n14\n\n\n9\n\n\n\n\n\n\n20\n\n\n20\n\n\n15\n\n\n10\n\n\n\n\n\n\n21\n\n\n21\n\n\n16\n\n\n10\n\n\n\n\n\n\n22\n\n\n22\n\n\n16\n\n\n11\n\n\n\n\n\n\n23\n\n\n23\n\n\n17\n\n\n11\n\n\n\n\n\n\n24\n\n\n24\n\n\n18\n\n\n12\n\n\n\n\n\n\n25\n\n\n25\n\n\n18\n\n\n12\n\n\n\n\n\n\n26\n\n\n26\n\n\n19\n\n\n13\n\n\n\n\n\n\n27\n\n\n27\n\n\n20\n\n\n13\n\n\n\n\n\n\n28\n\n\n28\n\n\n21\n\n\n14\n\n\n\n\n\n\n29\n\n\n29\n\n\n21\n\n\n14\n\n\n\n\n\n\n30\n\n\n30\n\n\n22\n\n\n15\n\n\n\n\n\n\n\n\nClass Features\n\n\nClass Feature\n\n\nTracks\n\n\nField Commander\n\n\nUnless otherwise noted, all abilities of this track are Extraordinary.\n\n\nCircle 1 \u2014 Commander's Strike\n\n\nOnce per \n[Round]\n you may replace an attack in an attack action with a Commander's Strike.  If the attack hits you deal damage equal to your KOM (no damage modifiers apply) and an ally other than you and within your \n[Close]\n range may make a single attack against your target (that ally must be able to otherwise attack the target normally) known as a Commander's Strike Attack.\n\n\nAt 3rd Circle, your Commander's Strike deals normal damage.\n\n\nAt 6th Circle an additional ally can make a Commander's Strike Attack.\n\n\nCircle 2 \u2014 Reorient the Axis\n\n\nAs a move action, one ally, and one additional ally per circle of tactics you possess, within \n[Close]\n range may move 5 ft per circle of tactics you possess.  This movement does not provoke opportunity attacks.\n\n\nCircle 3 \u2014 Direct the Strike\n\n\nAs a standard action, an ally within your \n[Close]\n range may move a distance equal to or less than your \n[Close]\n range and take an attack action against an enemy within your \n[Close]\n range.\n\n\nCircle 4 \u2014 Hail of Steel\n\n\nAs a standard action once per \n[Encounter]\n, each ally within \n[Close]\n range may make a melee or ranged attack against an enemy of that ally's choice.  Add half of your KOM to attack rolls and your KOM to damage rolls to the attacks granted by Hail of Steel.\n\n\nCircle 5 \u2014 Rapid Formation\n\n\nWhenever you hit an enemy during an attack action on your turn an ally within 15 feet of you or the target may move 10 feet without provoking attacks of opportunity.\n\n\nCircle 6 \u2014 Death from Two Sides\n\n\nAs a standard action once per \n[Encounter]\n, two allies (you and another ally or two other allies) within \n[Close]\n range may take an attack action against the same enemy within your \n[Close]\n range.  This is a \n[Surge]\n effect.\n\n\nCircle 7 \u2014 Devastating Offensive\n\n\nAs a swift action once per \n[Encounter]\n, allies within your \n[Close]\n range gain one \n[Bonus Attack]\n for a number of \n[Round]\ns equal to half your KOM.  Add half your KOM to attack rolls and your KOM to damage rolls for \n[Bonus Attack]\ns granted by Devastating Offensive.\n\n\nThe \n[Bonus Attacks]\n granted by Devastating Offensive do not apply towards the normal \n[Round]\n limits for \n[Bonus Attacks]\n.\n\n\nInfluence\n\n\nUnless otherwise noted, all abilities of this track are Extraordinary.\n\n\nCircle 1 \u2014 Armsman's Presence\n\n\nYou gain Armsman's Presence, which affects allies within your \n[Close]\n range.  Armsman's Presence does not function while you are \n[Unconscious]\n.  Allies may be under the effects of only one Armsman's Presence at a time; an ally within multiple instances of Armsman's Presence chooses which instance affects that ally.\n\n\nBrace Yourselves!\n\n\nAs a move action or part of a move action, allies affected by your Armsman's Presence gain temporary hit points equal to your KDM + \u2153 your level.\n\n\nCircle 2 \u2014 Armsman's Fortitude\n\n\nYou gain \n[Immunity]\n to \n[Fear]\n effects.  Allies affected by your Armsman's Presence gain a +2 bonus to saves against \n[Fear]\n effects.\n\n\nCircle 3 \u2014 Snap Out of It\n\n\nAs a move action or part of a move action once per \n[Encounter]\n, remove two of the following conditions from an ally within \n[Melee]\n range: \n[Bleeding]\n, \n[Blinded]\n, \n[Burning]\n, \n[Confused]\n, \n[Dazzled]\n, \n[Deafened]\n, \n[Exhausted]\n, \n[Fatigued]\n, \n[Frightened]\n, \n[Nauseated]\n, \n[Paralyzed]\n, \n[Shaken]\n, \n[Sickened]\n, \n[Slowed]\n, \n[Stunned]\n.  At 6th circle you may use this ability twice per \n[Encounter]\n.\n\n\nCircle 4 \u2014 Armsman's Encouragement\n\n\nAllies affected by your Armsman's Presence gain a +3 deflection bonus to AC and +1 bonus to attack rolls.\n\n\nCircle 5 \u2014 Shield's Up!\n\n\nBrace Yourselves! also grants allies \n[Damage reduction]\n equal to your KDM until the end of your next turn.\n\n\nCircle 6 \u2014 Armsman's Resilience\n\n\nAllies affected by your Armsman's Presence gain a +2 bonus to Reflex, Fortitude, and Will saves.\n\n\nCircle 7 \u2014 Inspired Heroism\n\n\nAs a move action once per \n[Encounter]\n, allies affected by your Armsman's Presence gain \n[Immunity]\n to the following until the start of your next turn (the durations of conditions affected by Inspired Heroism decrease as normal): \n[Dazed]\n, \n[Exhausted]\n, \n[Fatigued]\n, \n[Frightened]\n, \n[Nauseated]\n, \n[Panicked]\n, \n[Shaken]\n, \n[Sickened]\n, \n[Stunned]\n.\nThe effects are not removed from those affected unless they would normally expire.\n\n\nGrit\n\n\nUnless otherwise noted, all abilities of this track are Extraordinary.\n\n\nCircle 1 \u2014 Conditioned Reflexes\n\n\nYou gain a bonus equal to half your level (minimum 1) on initiative checks and you are not \n[Flat-footed]\n at the start of an encounter.\n\n\nCircle 2 \u2014 On Top of It\n\n\nOnce per \n[Encounter]\n, as an immediate action, you can make an attack against an enemy in your weapon range in response to an attack or ability activation by that enemy.  If your attack hits you deal damage equal to your KOM (no modifiers applied) and reduce the attack roll of the triggering action by half of your KOM. \n\n\nIf the interrupted attack was part of an attack action reduce the attack rolls of each attack in that attack action.\n\n\nCircle 3 \u2014 Timely Action\n\n\nOnce per \n[Round]\n you may take an additional move action that may only be used to activate track abilities (it may not be traded in for a swift action).  You may use this ability once per \n[Encounter]\n for every circle of Grit you possess.\n\n\nCircle 4 \u2014 Veteran of the Field\n\n\nYou may take an additional 5 ft step once per \n[Round]\n.  Additionally, you gain 3 additional HP per level.\n\n\nCircle 5 \u2014 Survivor\n\n\nYou gain \n[Fast healing]\n equal to your character level.\n\n\nCircle 6 \u2014 I've Got This\n\n\nYou may use On Top of It twice per \n[Encounter]\n and the On Top of It attack deals damage as normal.\n\n\nCircle 7 \u2014 Battle Hardened\n\n\nYou gain \n[Immunity]\n to \n[Binding]\n effects, and the following conditions: \n[Stunned]\n, \n[Dazed]\n, \n[Dazzled]\n.",
+            "title": "Warlord"
+        },
+        {
+            "location": "/classes/warlord/#base-stats",
+            "text": "HP  Skills  KOM  KDM      10  6  Wis  Con",
+            "title": "Base Stats"
+        },
+        {
+            "location": "/classes/warlord/#class-skills",
+            "text": "Physical  Knowledge  Interaction      [SKILL]  [SKILL]  [SKILL]     [CLASS BLURB]",
+            "title": "Class Skills"
+        },
+        {
+            "location": "/classes/warlord/#party-role",
+            "text": "[ROLE BLURB]",
+            "title": "Party Role"
+        },
+        {
+            "location": "/classes/warlord/#class-in-your-game",
+            "text": "[FLUFF BLURB]",
+            "title": "[CLASS] in Your Game"
+        },
+        {
+            "location": "/classes/warlord/#attack-and-save-progression",
+            "text": "Level  BAB  Good Saves  Poor Saves      1  1  2  0    2  2  3  1    3  3  4  1    4  4  4  2    5  5  5  2    6  6  6  3    7  7  6  3    8  8  7  4    9  9  8  4    10  10  8  5    11  11  9  5    12  12  10  6    13  13  10  6    14  14  11  7    15  15  12  7    16  16  12  8    17  17  13  8    18  18  14  9    19  19  14  9    20  20  15  10    21  21  16  10    22  22  16  11    23  23  17  11    24  24  18  12    25  25  18  12    26  26  19  13    27  27  20  13    28  28  21  14    29  29  21  14    30  30  22  15",
+            "title": "Attack and Save Progression"
+        },
+        {
+            "location": "/classes/warlord/#class-features",
+            "text": "",
+            "title": "Class Features"
+        },
+        {
+            "location": "/classes/warlord/#class-feature",
+            "text": "",
+            "title": "Class Feature"
+        },
+        {
+            "location": "/classes/warlord/#tracks",
+            "text": "",
+            "title": "Tracks"
+        },
+        {
+            "location": "/classes/warlord/#field-commander",
+            "text": "Unless otherwise noted, all abilities of this track are Extraordinary.",
+            "title": "Field Commander"
+        },
+        {
+            "location": "/classes/warlord/#circle-1-commanders-strike",
+            "text": "Once per  [Round]  you may replace an attack in an attack action with a Commander's Strike.  If the attack hits you deal damage equal to your KOM (no damage modifiers apply) and an ally other than you and within your  [Close]  range may make a single attack against your target (that ally must be able to otherwise attack the target normally) known as a Commander's Strike Attack.  At 3rd Circle, your Commander's Strike deals normal damage.  At 6th Circle an additional ally can make a Commander's Strike Attack.",
+            "title": "Circle 1 &mdash; Commander's Strike"
+        },
+        {
+            "location": "/classes/warlord/#circle-2-reorient-the-axis",
+            "text": "As a move action, one ally, and one additional ally per circle of tactics you possess, within  [Close]  range may move 5 ft per circle of tactics you possess.  This movement does not provoke opportunity attacks.",
+            "title": "Circle 2 &mdash; Reorient the Axis"
+        },
+        {
+            "location": "/classes/warlord/#circle-3-direct-the-strike",
+            "text": "As a standard action, an ally within your  [Close]  range may move a distance equal to or less than your  [Close]  range and take an attack action against an enemy within your  [Close]  range.",
+            "title": "Circle 3 &mdash; Direct the Strike"
+        },
+        {
+            "location": "/classes/warlord/#circle-4-hail-of-steel",
+            "text": "As a standard action once per  [Encounter] , each ally within  [Close]  range may make a melee or ranged attack against an enemy of that ally's choice.  Add half of your KOM to attack rolls and your KOM to damage rolls to the attacks granted by Hail of Steel.",
+            "title": "Circle 4 &mdash; Hail of Steel"
+        },
+        {
+            "location": "/classes/warlord/#circle-5-rapid-formation",
+            "text": "Whenever you hit an enemy during an attack action on your turn an ally within 15 feet of you or the target may move 10 feet without provoking attacks of opportunity.",
+            "title": "Circle 5 &mdash; Rapid Formation"
+        },
+        {
+            "location": "/classes/warlord/#circle-6-death-from-two-sides",
+            "text": "As a standard action once per  [Encounter] , two allies (you and another ally or two other allies) within  [Close]  range may take an attack action against the same enemy within your  [Close]  range.  This is a  [Surge]  effect.",
+            "title": "Circle 6 &mdash; Death from Two Sides"
+        },
+        {
+            "location": "/classes/warlord/#circle-7-devastating-offensive",
+            "text": "As a swift action once per  [Encounter] , allies within your  [Close]  range gain one  [Bonus Attack]  for a number of  [Round] s equal to half your KOM.  Add half your KOM to attack rolls and your KOM to damage rolls for  [Bonus Attack] s granted by Devastating Offensive.  The  [Bonus Attacks]  granted by Devastating Offensive do not apply towards the normal  [Round]  limits for  [Bonus Attacks] .",
+            "title": "Circle 7 &mdash; Devastating Offensive"
+        },
+        {
+            "location": "/classes/warlord/#influence",
+            "text": "Unless otherwise noted, all abilities of this track are Extraordinary.",
+            "title": "Influence"
+        },
+        {
+            "location": "/classes/warlord/#circle-1-armsmans-presence",
+            "text": "You gain Armsman's Presence, which affects allies within your  [Close]  range.  Armsman's Presence does not function while you are  [Unconscious] .  Allies may be under the effects of only one Armsman's Presence at a time; an ally within multiple instances of Armsman's Presence chooses which instance affects that ally.",
+            "title": "Circle 1 &mdash; Armsman's Presence"
+        },
+        {
+            "location": "/classes/warlord/#brace-yourselves",
+            "text": "As a move action or part of a move action, allies affected by your Armsman's Presence gain temporary hit points equal to your KDM + \u2153 your level.",
+            "title": "Brace Yourselves!"
+        },
+        {
+            "location": "/classes/warlord/#circle-2-armsmans-fortitude",
+            "text": "You gain  [Immunity]  to  [Fear]  effects.  Allies affected by your Armsman's Presence gain a +2 bonus to saves against  [Fear]  effects.",
+            "title": "Circle 2 &mdash; Armsman's Fortitude"
+        },
+        {
+            "location": "/classes/warlord/#circle-3-snap-out-of-it",
+            "text": "As a move action or part of a move action once per  [Encounter] , remove two of the following conditions from an ally within  [Melee]  range:  [Bleeding] ,  [Blinded] ,  [Burning] ,  [Confused] ,  [Dazzled] ,  [Deafened] ,  [Exhausted] ,  [Fatigued] ,  [Frightened] ,  [Nauseated] ,  [Paralyzed] ,  [Shaken] ,  [Sickened] ,  [Slowed] ,  [Stunned] .  At 6th circle you may use this ability twice per  [Encounter] .",
+            "title": "Circle 3 &mdash; Snap Out of It"
+        },
+        {
+            "location": "/classes/warlord/#circle-4-armsmans-encouragement",
+            "text": "Allies affected by your Armsman's Presence gain a +3 deflection bonus to AC and +1 bonus to attack rolls.",
+            "title": "Circle 4 &mdash; Armsman's Encouragement"
+        },
+        {
+            "location": "/classes/warlord/#circle-5-shields-up",
+            "text": "Brace Yourselves! also grants allies  [Damage reduction]  equal to your KDM until the end of your next turn.",
+            "title": "Circle 5 &mdash; Shield's Up!"
+        },
+        {
+            "location": "/classes/warlord/#circle-6-armsmans-resilience",
+            "text": "Allies affected by your Armsman's Presence gain a +2 bonus to Reflex, Fortitude, and Will saves.",
+            "title": "Circle 6 &mdash; Armsman's Resilience"
+        },
+        {
+            "location": "/classes/warlord/#circle-7-inspired-heroism",
+            "text": "As a move action once per  [Encounter] , allies affected by your Armsman's Presence gain  [Immunity]  to the following until the start of your next turn (the durations of conditions affected by Inspired Heroism decrease as normal):  [Dazed] ,  [Exhausted] ,  [Fatigued] ,  [Frightened] ,  [Nauseated] ,  [Panicked] ,  [Shaken] ,  [Sickened] ,  [Stunned] .\nThe effects are not removed from those affected unless they would normally expire.",
+            "title": "Circle 7 &mdash; Inspired Heroism"
+        },
+        {
+            "location": "/classes/warlord/#grit",
+            "text": "Unless otherwise noted, all abilities of this track are Extraordinary.",
+            "title": "Grit"
+        },
+        {
+            "location": "/classes/warlord/#circle-1-conditioned-reflexes",
+            "text": "You gain a bonus equal to half your level (minimum 1) on initiative checks and you are not  [Flat-footed]  at the start of an encounter.",
+            "title": "Circle 1 &mdash; Conditioned Reflexes"
+        },
+        {
+            "location": "/classes/warlord/#circle-2-on-top-of-it",
+            "text": "Once per  [Encounter] , as an immediate action, you can make an attack against an enemy in your weapon range in response to an attack or ability activation by that enemy.  If your attack hits you deal damage equal to your KOM (no modifiers applied) and reduce the attack roll of the triggering action by half of your KOM.   If the interrupted attack was part of an attack action reduce the attack rolls of each attack in that attack action.",
+            "title": "Circle 2 &mdash; On Top of It"
+        },
+        {
+            "location": "/classes/warlord/#circle-3-timely-action",
+            "text": "Once per  [Round]  you may take an additional move action that may only be used to activate track abilities (it may not be traded in for a swift action).  You may use this ability once per  [Encounter]  for every circle of Grit you possess.",
+            "title": "Circle 3 &mdash; Timely Action"
+        },
+        {
+            "location": "/classes/warlord/#circle-4-veteran-of-the-field",
+            "text": "You may take an additional 5 ft step once per  [Round] .  Additionally, you gain 3 additional HP per level.",
+            "title": "Circle 4 &mdash; Veteran of the Field"
+        },
+        {
+            "location": "/classes/warlord/#circle-5-survivor",
+            "text": "You gain  [Fast healing]  equal to your character level.",
+            "title": "Circle 5 &mdash; Survivor"
+        },
+        {
+            "location": "/classes/warlord/#circle-6-ive-got-this",
+            "text": "You may use On Top of It twice per  [Encounter]  and the On Top of It attack deals damage as normal.",
+            "title": "Circle 6 &mdash; I've Got This"
+        },
+        {
+            "location": "/classes/warlord/#circle-7-battle-hardened",
+            "text": "You gain  [Immunity]  to  [Binding]  effects, and the following conditions:  [Stunned] ,  [Dazed] ,  [Dazzled] .",
+            "title": "Circle 7 &mdash; Battle Hardened"
+        },
+        {
             "location": "/additional-tracks/",
             "text": "Sometimes, being a magically empowered paladin of justice is not enough. Sometimes you want to be a magically empowered paladin of justice who is also a demon. Other times, you may want to play a vampire sage who wields the raw power of elemental fire, or a ranger who fights crime in the city streets. The tracks in this section are used for this purpose \u2014 adding a specialized concept to your character, whether it be a special skill or an unusally powerful race.",
             "title": "Section VI: Additional Tracks"
